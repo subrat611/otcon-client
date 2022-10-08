@@ -16,25 +16,33 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/about">About</a>
+            <nuxt-link class="nav-link text-dark" to="/about">About</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Program</a>
+            <nuxt-link class="nav-link text-dark" to="/404">Program</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/registration">Registration</a>
+            <nuxt-link class="nav-link text-dark" to="/registration"
+              >Registration</nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Call for papers</a>
+            <nuxt-link class="nav-link text-dark" to="/callforpaper"
+              >Call for papers</nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Committees</a>
+            <nuxt-link class="nav-link text-dark" to="/committee"
+              >Committees</nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Keynote speaker</a>
+            <nuxt-link class="nav-link text-dark" to="/keynote"
+              >Keynote speaker</nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contact us</a>
+            <nuxt-link class="nav-link text-dark" to="#">Contact us</nuxt-link>
           </li>
         </ul>
       </div>

@@ -1,34 +1,84 @@
 <template>
   <div>
     <ui-navbar></ui-navbar>
-    <div class="container">
+    <div class="container mt-4">
       <div class="row">
         <div class="col">
           <h1>Registration Fee</h1>
         </div>
-        <div class="col-12">
+        <div class="col-12 mt-3">
           <table class="table">
-            <thead class="table-light">
-              <tr>
-                <th scope="col">Category</th>
-                <th scope="col">Active IEEE Members</th>
-                <th scope="col">Non IEEE Members</th>
+            <thead>
+              <tr class="table-primary">
+                <th scope="col" colspan="5" class="text-end">
+                  Early Bird (30<sup>th</sup> Nov, 2022)
+                </th>
+              </tr>
+              <tr class="table-warning">
+                <th>Category</th>
+                <th colspan="2">Active IEEE Members</th>
+                <th colspan="2">Non IEEE Members</th>
+              </tr>
+              <tr class="table-light">
+                <th>(Author)</th>
+                <th>INR</th>
+                <th>USD</th>
+                <th>INR</th>
+                <th>USD</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>Full-time student/Research scholar</td>
+                <td>₹4000</td>
+                <td>$75</td>
+                <td>₹5000</td>
+                <td>$80</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Academician</td>
+                <td>₹5000</td>
+                <td>$80</td>
+                <td>₹6000</td>
+                <td>$90</td>
               </tr>
               <tr>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td>Industry</td>
+                <td>₹7000</td>
+                <td>$110</td>
+                <td>₹8000</td>
+                <td>$125</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="4" class="table-primary text-end fw-bold">
+                  Regular (31<sup>st</sup> Jan, 2023)
+                </td>
+              </tr>
+              <tr>
+                <td>Full-time Student/Research Scholar</td>
+                <td>₹6000</td>
+                <td>$90</td>
+                <td>₹7000</td>
+                <td>$110</td>
+              </tr>
+              <tr>
+                <td>Academician</td>
+                <td>₹7000</td>
+                <td>$110</td>
+                <td>₹8000</td>
+                <td>$125</td>
+              </tr>
+              <tr>
+                <td>Industry</td>
+                <td>₹9000</td>
+                <td>$130</td>
+                <td>₹10000</td>
+                <td>$140</td>
+              </tr>
+              <tr>
+                <td>Participants/Extra authors/Listener</td>
+                <td colspan="4" class="text-center">₹2000</td>
               </tr>
             </tbody>
           </table>

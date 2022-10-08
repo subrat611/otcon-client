@@ -256,9 +256,13 @@
           />
         </div>
         <div class="col">
-          <img src="~/assets/images/cgcost.png" alt="sponser" />
+          <img
+            src="~/assets/images/cgcost.png"
+            alt="sponser"
+            class="cg-cost-img"
+          />
         </div>
-        <div class="col text-center">
+        <div class="col-12 col-md-auto text-center">
           <img src="~/assets/images/QCI-Logo.png" alt="sponser" />
         </div>
       </div>
@@ -287,5 +291,11 @@ export default {
 }
 .o-title {
   font-size: 3rem;
+}
+
+@media (max-width: 682px) {
+  .cg-cost-img {
+    width: 20rem;
+  }
 }
 </style>
