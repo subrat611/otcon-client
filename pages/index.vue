@@ -1,24 +1,17 @@
 <template>
   <div>
     <div class="container-fluid px-0">
-      <ui-navbar></ui-navbar>
-      <div class="container text-center mt-4 pt-4">
-        <div class="row align-items-center hero-content">
-          <div class="col-12">
+      <div class="container text-center">
+        <div class="row align-items-center hero-content pt-5">
+          <div class="col-12 mt-5">
             <img
               src="../assets/images/ieee.png"
               alt="iee image"
               class="iee-img"
             />
           </div>
-          <div class="col-12">
-            <h1 class="o-title text-light fw-bolder">OTCON 2.0</h1>
-          </div>
-          <div class="col">
-            <p class="text-light">
-              OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
-              Technology for Sustainable Development (8-10 Feb, 2023)
-            </p>
+          <div class="col-12 mt-5">
+            <h1 class="o-title text-light fw-bolder mt-5">OTCON 2.0</h1>
           </div>
           <div
             class="
@@ -27,6 +20,7 @@
               d-flex
               justify-content-center
               align-items-center
+              mt-4
             "
           >
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
@@ -48,6 +42,15 @@
               <h3>{{ sec }}</h3>
               <p>sec</p>
             </div>
+          </div>
+          <h5 class="text-light text-uppercase fw-bolder mt-3">
+            Event Starts In
+          </h5>
+          <div class="col mt-5 pt-5">
+            <p class="text-light">
+              OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
+              Technology for Sustainable Development (8-10 Feb, 2023)
+            </p>
           </div>
         </div>
       </div>
@@ -343,16 +346,19 @@ export default {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url('../assets/images/bg.jpeg');
+  /* background-image: url('../assets/images/bg.jpeg'); */
+  background-image: linear-gradient(to right, #232526ca, #414345ad),
+    url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .hero-content {
-  height: 76vh;
+  height: 100%;
 }
 .o-title {
-  font-size: 4rem;
+  font-size: 5rem;
+  letter-spacing: 18px;
 }
 
 @media (max-width: 682px) {
