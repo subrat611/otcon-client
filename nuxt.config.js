@@ -23,6 +23,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/aos@2.3.1/dist/aos.css',
+      },
     ],
   },
 
@@ -36,6 +40,10 @@ export default {
   plugins: [
     {
       src: '~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+      mode: 'client',
+    },
+    {
+      src: '~/plugins/aos.js',
       mode: 'client',
     },
   ],

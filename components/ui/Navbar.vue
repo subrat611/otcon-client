@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <nav data-aos="fade-down" class="navbar navbar-expand-lg fixed-top shadow-sm">
     <div class="container">
       <a class="navbar-brand text-dark fw-bold" href="/">OTCON 2.0</a>
       <button

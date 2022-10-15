@@ -11,7 +11,9 @@
             />
           </div>
           <div class="col-12 mt-5">
-            <p class="o-title text-light fw-bolder">OTCON 2.0</p>
+            <p data-aos="fade-up" class="o-title text-light fw-bolder">
+              OTCON 2.0
+            </p>
           </div>
           <div
             class="
