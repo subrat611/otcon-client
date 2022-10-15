@@ -3,7 +3,7 @@
     <div class="container-fluid px-0">
       <div class="container text-center">
         <div class="row align-items-center hero-content pt-5">
-          <div class="col-12 mt-5">
+          <div class="col-12">
             <img
               src="../assets/images/ieee.png"
               alt="iee image"
@@ -11,9 +11,7 @@
             />
           </div>
           <div class="col-12 mt-5">
-            <h1 data-aos="fade-up" class="o-title text-light fw-bolder mt-5">
-              OTCON 2.0
-            </h1>
+            <p class="o-title text-light fw-bolder">OTCON 2.0</p>
           </div>
           <div
             class="
@@ -22,7 +20,6 @@
               d-flex
               justify-content-center
               align-items-center
-              mt-4
             "
           >
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
@@ -48,7 +45,7 @@
           <h5 class="text-light text-uppercase fw-bolder mt-3">
             Event Starts In
           </h5>
-          <div class="col mt-5 pt-5">
+          <div class="col my-5">
             <p class="text-light">
               OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
               Technology for Sustainable Development (8-10 Feb, 2023)
@@ -356,7 +353,7 @@ export default {
   background-size: cover;
 }
 .hero-content {
-  height: 100%;
+  height: 100vh;
 }
 .o-title {
   font-size: 5rem;
