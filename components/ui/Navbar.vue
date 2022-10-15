@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand text-dark" href="/">OTCON 2.0</a>
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-dark fw-bold" href="/">OTCON 2.0</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -14,7 +14,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <nuxt-link class="nav-link text-dark" to="/">Home</nuxt-link>
+          </li>
           <li class="nav-item">
             <nuxt-link class="nav-link text-dark" to="/about">About</nuxt-link>
           </li>
