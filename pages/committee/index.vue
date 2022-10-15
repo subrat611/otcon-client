@@ -159,7 +159,12 @@
         </div>
       </div>
     </div>
-    
+    <div class="container my-4 py-4">
+      <h1 class="mb-2 o-title">Technical Program Committee</h1>
+      <div class="o-card-container">
+        
+      </div>
+    </div>
   </div>
 </template>
 
