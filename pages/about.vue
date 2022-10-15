@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ui-navbar></ui-navbar>
+    
     <div class="container position-relative">
       <h1 class="text-center py-5 fw-bolder">About OPJU</h1>
       <p class="py-4 px-5 fs-5">

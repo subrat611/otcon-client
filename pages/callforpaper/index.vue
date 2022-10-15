@@ -1,6 +1,5 @@
 <template>
   <div>
-    <ui-navbar></ui-navbar>
     <div class="container">
       <div class="row my-2 py-2 bg-light text-sm-center">
         <div class="col-sm-4">

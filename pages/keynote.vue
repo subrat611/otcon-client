@@ -1,6 +1,5 @@
 <template>
   <div>
-    <ui-navbar></ui-navbar>
     <div class="container mt-4 py-4">
       <div class="row">
         <div class="col-12">
