@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">OTCON 2.0</a>
+      <a class="navbar-brand text-dark" href="/">OTCON 2.0</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -57,4 +57,7 @@ export default {
 </script>
 
 <style scoped>
+.navbar {
+  background-color: #ffffff;
+}
 </style>

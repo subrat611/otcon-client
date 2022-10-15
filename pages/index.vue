@@ -2,19 +2,52 @@
   <div>
     <div class="container-fluid px-0">
       <ui-navbar></ui-navbar>
-      <div class="container text-center mt-4">
+      <div class="container text-center mt-4 pt-4">
         <div class="row align-items-center hero-content">
           <div class="col-12">
-            <img src="../assets/images/ieee.png" alt="iee image" />
+            <img
+              src="../assets/images/ieee.png"
+              alt="iee image"
+              class="iee-img"
+            />
           </div>
           <div class="col-12">
-            <h1 class="o-title text-white fw-bolder">OTCON 2.0</h1>
+            <h1 class="o-title text-light fw-bolder">OTCON 2.0</h1>
           </div>
           <div class="col">
-            <p class="text-white">
+            <p class="text-light">
               OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
               Technology for Sustainable Development (8-10 Feb, 2023)
             </p>
+          </div>
+          <div
+            class="
+              col-12
+              text-light
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <div class="col-2 col-md-1 border rounded me-4 pt-4">
+              <h3>{{ days }}</h3>
+              <p>days</p>
+            </div>
+            <div class="me-3"><h2>:</h2></div>
+            <div class="col-2 col-md-1 border rounded me-4 pt-4">
+              <h3>{{ hours }}</h3>
+              <p>hours</p>
+            </div>
+            <div class="me-3"><h2>:</h2></div>
+            <div class="col-2 col-md-1 border rounded me-4 pt-4">
+              <h3>{{ mins }}</h3>
+              <p>mins</p>
+            </div>
+            <div class="me-3"><h2>:</h2></div>
+            <div class="col-2 col-md-1 border rounded pt-4">
+              <h3>{{ sec }}</h3>
+              <p>sec</p>
+            </div>
           </div>
         </div>
       </div>
@@ -273,24 +306,53 @@
 <script>
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      days: 0,
+      hours: 0,
+      mins: 0,
+      sec: 0,
+    }
+  },
+  mounted() {
+    const countDownTimer = new Date('Feb 8, 2023').getTime()
+
+    const x = setInterval(() => {
+      const currentTime = new Date().getTime()
+      const time = countDownTimer - currentTime
+
+      this.days = Math.floor(time / (1000 * 60 * 60 * 24))
+      this.hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      this.mins = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60))
+      this.sec = Math.floor((time % (1000 * 60)) / 1000)
+
+      if (time < 0) {
+        clearInterval(x)
+      }
+    }, 1000)
+  },
 }
 </script>
 
 <style scoped>
+.iee-img {
+  width: 13rem;
+}
+
 .container-fluid {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-image: url('../assets/images/bg.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw 700px;
+  background-size: cover;
 }
 .hero-content {
-  height: 60vh;
+  height: 76vh;
 }
 .o-title {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 @media (max-width: 682px) {
