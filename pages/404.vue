@@ -1,16 +1,13 @@
 <template>
-  <div>
+  <page-wrapper>
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1>404</h1>
-        </div>
-        <div class="col-12">
-          <p>Page Not Found</p>
+        <div class="col-lg-12 col-sm-12">
+          <coming-soon />
         </div>
       </div>
     </div>
-  </div>
+  </page-wrapper>
 </template>
 
 <script>
@@ -19,5 +16,5 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 </style>
