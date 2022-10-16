@@ -1,9 +1,17 @@
 <template>
-  <div>
-    
-    <div class="container position-relative">
-      <h1 class="text-center py-5 fw-bolder">About OPJU</h1>
-      <p class="py-4 px-5 fs-5">
+  <page-wrapper>
+    <page-header>
+      <h2 class="">About</h2>
+    </page-header>
+    <div class="container">
+      <div class="text-center">
+        <img
+          src="~/assets/images/opjulogo.png"
+          alt="logo"
+          class="text-center"
+        />
+      </div>
+      <p class="lead">
         OP Jindal University (OPJU) has been established under the aegis of the
         Jindal Education and Welfare Society. The O P Jindal Group is a US$ 22
         billion conglomerate, employing more than 50,000 people with
@@ -17,24 +25,23 @@
         interactions with practitioners and professors. Website:
         <a href="">www.opju.ac.in</a>
       </p>
-      <img
-        src="~/assets/images/opjulogo.png"
-        alt="logo"
-        style="width: 100px"
-        class="position-absolute"
-      />
     </div>
-  </div>
+  </page-wrapper>
 </template>
 
 <script>
+import pageHeader from '~/components/page-header.vue'
+import PageWrapper from '~/components/page-wrapper.vue'
 export default {
+  components: { pageHeader, PageWrapper },
   name: 'AboutPage',
 }
 </script>
 
 <style scoped>
-.position-absolute {
-  right: 10rem;
+img {
+  margin: 2rem 0;
+  width: 70px;
+  height: auto;
 }
 </style>
