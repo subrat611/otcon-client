@@ -1,5 +1,12 @@
 <template>
-  <div>
+  <page-wrapper>
+    <page-header>
+      <h2 class="">Call For Papers</h2>
+      <h5 class="mt-3 text-light">
+        2nd OPJU International Conference On Emerging Technologies And
+        Sustainable Development
+      </h5>
+    </page-header>
     <div class="container">
       <div class="row my-2 py-2 bg-light text-sm-center">
         <div class="col-sm-4">
@@ -14,14 +21,68 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-xl-6">
+        <div class="col-lg-6">
           <img
             class="img-fluid rounded"
             src="~/assets/images/conf-1.jpg"
             alt="conference image"
           />
+          <h3 class="py-2 my-3 rounded text-white text-center bg-info">
+            Paper Selection Process
+          </h3>
+
+          <div class="process">
+            <ul class="list-group list-group-flush mb-5">
+              <li
+                v-for="(step, i) in selectionProcess"
+                :key="i"
+                class="list-group-item"
+              >
+                <h6>Step {{ i + 1 }}</h6>
+                {{ step.step }}
+              </li>
+            </ul>
+          </div>
+
+          <div class="alert alert-info">
+            No paper will be accepted without screening review and technical
+            review process
+          </div>
+          <ul>
+            <li>
+              Full-length papers shall be submitted in order to consider the
+              paper for the review process.
+            </li>
+            <li>
+              Paper ID will be provided to all the received papers within ONE
+              working day from conference@opju.ac.in. Authors are requested to
+              contact the TPC through conference@opju.ac.in if the paper ID has
+              not been received within the time frame.
+            </li>
+            <li>
+              TPC of OTCON 2.0 will check for possible plagiarism TWICE, first
+              after receiving the paper and then at the stage of acceptance.
+              Though OTCON 2.0 will carefully check for plagiarism, there are
+              some possibilities for wrong plagiarism results, hence OTCON 2.0
+              encourages the authors to take sole responsibility for plagiarism
+              when they are ready to submit their papers.
+            </li>
+          </ul>
+          <div class="alert alert-info">
+            <strong>For further details please contact</strong> <br />
+            The Organizing Chair, <br />
+            OTCON 2.0, <br />
+            OP Jindal Institute of Technology, <br />
+            Raigarh, Chhattisgarh, India. <br />
+            E-mail:
+            <a href="mailto: conference@opju.ac.in">conference@opju.ac.in</a>
+          </div>
         </div>
-        <div class="col-12 col-xl-6 mt-2 mt-xl-0 px-4 pe-xl-5">
+        <div class="col-lg-6">
+          <h5 class="fw-bold mb-3">
+            2nd OPJU International Conference On Emerging Technologies And
+            Sustainable Development
+          </h5>
           <p>
             OTCON 2.0 invites full-length original research contributions from
             researchers/professionals from industries, R&D organizations,
@@ -61,269 +122,48 @@
             >
           </p>
         </div>
-        <div class="col-12 mt-xl-4">
-          <h2 class="w-100 py-2 rounded text-white text-center bg-primary">
-            Paper Selection Process
-          </h2>
-        </div>
-        <div class="col-12">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
-                  aria-expanded="true"
-                  aria-controls="flush-collapseOne"
-                >
-                  <strong>Step 1</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseOne"
-                class="accordion-collapse collapse show"
-                aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (Received) Abstracts* / full-length papers received will be
-                  given paper ID** relevant to the conference topic and track.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseTwo"
-                >
-                  <strong>Step 2</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (Under Screening) Initial screening review will be done by the
-                  Technical Program Committee of OTCON 2.0. Initial screening
-                  includes relevance to the conference topic, plagiarism***,
-                  organization of the paper, quality of
-                  figures/diagrams/illustrations/equations and technical
-                  novelty, etc.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  <strong>Step 3</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (Under Review) Papers got through Step 2 alone will be
-                  forwarded to the technical review process.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  <strong>Step 4</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (Revision) The corresponding author will be notified of the
-                  outcome of the review process and the revised version of the
-                  manuscript shall be submitted within fifteen days on the date
-                  of intimation.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  <strong>Step 5</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (Under Review) A revised version of the papers will be sent to
-                  reviewers to ensure that all the suggested corrections have
-                  been carried out. If the reviewer is recommended for minor
-                  revision, TPC recommends its decision to be taken by the
-                  organizing Chair.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  <strong>Step 6</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (Accept / Reject) A final decision will be taken by the
-                  organizing chair based on the recommendations by the reviewers
-                  / TPC and the same will be intimated to the corresponding
-                  authors.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  <strong>Step 7</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (CRP Received / Not Received) status of the Camera-Ready Paper
-                  after the acceptance.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  <strong>Step 8</strong>
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  (REG Complete / Pending) Status of the registration
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 mt-4">
-          <p class="fs-5 badge text-bg-info">Info</p>
-          <p>
-            No paper will be accepted without screening review and technical
-            review process
-          </p>
-          <ul>
-            <li>
-              Full-length papers shall be submitted in order to consider the
-              paper for the review process.
-            </li>
-            <li>
-              Paper ID will be provided to all the received papers within ONE
-              working day from conference@opju.ac.in. Authors are requested to
-              contact the TPC through conference@opju.ac.in if the paper ID has
-              not been received within the time frame.
-            </li>
-            <li>
-              TPC of OTCON 2.0 will check for possible plagiarism TWICE, first
-              after receiving the paper and then at the stage of acceptance.
-              Though OTCON 2.0 will carefully check for plagiarism, there are
-              some possibilities for wrong plagiarism results, hence OTCON 2.0
-              encourages the authors to take sole responsibility for plagiarism
-              when they are ready to submit their papers.
-            </li>
-          </ul>
-          <p>
-            <strong>For further details please contact</strong> <br />
-            The Organizing Chair, <br />
-            OTCON 2.0, <br />
-            OP Jindal Institute of Technology, <br />
-            Raigarh, Chhattisgarh, India. <br />
-            E-mail:
-            <a href="mailto: conference@opju.ac.in">conference@opju.ac.in</a>
-          </p>
-        </div>
       </div>
     </div>
-  </div>
+  </page-wrapper>
 </template>
 
 
 <script>
+import pageWrapper from '~/components/page-wrapper.vue'
 export default {
+  components: { pageWrapper },
   name: 'CallForPaper',
+  data() {
+    return {
+      selectionProcess: [
+        {
+          step: `Received) Abstracts* / full-length papers received will be given paper ID** relevant to the conference topic and track.`,
+        },
+        {
+          step: `
+(Under Screening) Initial screening review will be done by the Technical Program Committee of OTCON 2.0. Initial screening includes relevance to the conference topic, plagiarism***, organization of the paper, quality of figures/diagrams/illustrations/equations and technical novelty, etc.`,
+        },
+        {
+          step: `(Under Review) Papers got through Step 2 alone will be forwarded to the technical review process.`,
+        },
+        {
+          step: `(Revision) The corresponding author will be notified of the outcome of the review process and the revised version of the manuscript shall be submitted within fifteen days on the date of intimation.
+`,
+        },
+        {
+          step: `(Under Review) A revised version of the papers will be sent to reviewers to ensure that all the suggested corrections have been carried out. If the reviewer is recommended for minor revision, TPC recommends its decision to be taken by the organizing Chair.`,
+        },
+        {
+          step: `(Accept / Reject) A final decision will be taken by the organizing chair based on the recommendations by the reviewers / TPC and the same will be intimated to the corresponding authors.`,
+        },
+        {
+          step: `(CRP Received / Not Received) status of the Camera-Ready Paper after the acceptance.`,
+        },
+        {
+          step: `(REG Complete / Pending) Status of the registration`,
+        },
+      ],
+    }
+  },
 }
 </script>
