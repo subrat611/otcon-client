@@ -291,10 +291,6 @@ export default {
   color: skyblue;
 }
 
-.timer:hover {
-  background: rgba(255, 255, 255, 0.707);
-}
-
 .track-img {
   width: 70px;
   height: auto;
