@@ -1,12 +1,12 @@
 <template>
   <div>
+    <page-header>
+      <h2 class="">Keynote Speaker</h2>
+    </page-header>
     <div class="container mt-4 py-4">
       <div class="row">
-        <div class="col-12">
-          <h1>Keynote Speaker</h1>
-        </div>
-        <div class="col">
-          <h3>Comming Soon</h3>
+        <div class="col-lg-12 col-sm-12">
+          <coming-soon />
         </div>
       </div>
     </div>

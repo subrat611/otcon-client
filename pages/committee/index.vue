@@ -1,168 +1,173 @@
 <template>
-  <div>
+  <page-wrapper>
+    <page-header>
+      <h2 class="">Organizing Committe</h2>
+    </page-header>
+
     <div class="container my-4 py-4">
-      <h1 class="mb-2 o-title">Organizing Committee</h1>
       <div class="o-card-container">
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Chief Patron</h4>
-          <p>Mr. Naveen Jindal</p>
+          <p class="m-0">Mr. Naveen Jindal</p>
+          <h6 class="m-0 text-danger">Chief Patron</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Patron</h4>
-          <p>Ms. Shallu Jindal</p>
+          <p class="m-0">Ms. Shallu Jindal</p>
+          <h6 class="m-0 text-danger">Patron</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Chairman</h4>
-          <p>Dr. R.D. Patidar</p>
+          <p class="m-0">Dr. R.D. Patidar</p>
+          <h6 class="m-0 text-danger">Chairman</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Convener</h4>
-          <p>Dr. Ashok Bhansali</p>
+          <p class="m-0">Dr. Ashok Bhansali</p>
+          <h6 class="m-0 text-danger">Convener</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Convener</h4>
-          <p>Dr. Siddharth S Chakrabarti</p>
+          <p class="m-0">Dr. Siddharth S Chakrabarti</p>
+          <h6 class="m-0 text-danger">Convener</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Co-Convener</h4>
-          <p>Dr. Rakesh Nayak</p>
+          <p class="m-0">Dr. Rakesh Nayak</p>
+          <h6 class="m-0 text-danger">Co-Convener</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Co-Convener</h4>
-          <p>Dr. Bhupesh Kumar Dewangan</p>
+          <p class="m-0">Dr. Bhupesh Kumar Dewangan</p>
+          <h6 class="m-0 text-danger">Co-Convener</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Co-Convener</h4>
-          <p>Dr. Bhupesh Kumar Dewangan</p>
+          <p class="m-0">Dr. Bhupesh Kumar Dewangan</p>
+          <h6 class="m-0 text-danger">Co-Convener</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Organizing Secretaries</h4>
-          <p>Dr. Nitesh Bharadwaj</p>
+          <p class="m-0">Dr. Nitesh Bharadwaj</p>
+          <h6 class="m-0 text-danger">Organizing Secretaries</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Organizing Secretaries</h4>
-          <p>Dr. Deepak Singh</p>
+          <p class="m-0">Dr. Deepak Singh</p>
+          <h6 class="m-0 text-danger">Organizing Secretaries</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Joint Secretaries</h4>
-          <p>Dr. Rajesh Jha</p>
+          <p class="m-0">Dr. Rajesh Jha</p>
+          <h6 class="m-0 text-danger">Joint Secretaries</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Joint Secretaries</h4>
-          <p>Dr. Sushree Diptimayee Swain</p>
+          <p class="m-0">Dr. Sushree Diptimayee Swain</p>
+          <h6 class="m-0 text-danger">Joint Secretaries</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Technical Program Chair</h4>
-          <p>Dr. Saroj Chandra</p>
+          <p class="m-0">Dr. Saroj Chandra</p>
+          <h6 class="m-0 text-danger">Technical Program Chair</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Publication Chair</h4>
-          <p>Dr. Sandeep Biswal</p>
+          <p class="m-0">Dr. Sandeep Biswal</p>
+          <h6 class="m-0 text-danger">Publication Chair</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Publicity Chair</h4>
-          <p>Dr Sanjay Singh</p>
+          <p class="m-0">Dr Sanjay Singh</p>
+          <h6 class="m-0 text-danger">Publicity Chair</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Finance Chair</h4>
-          <p>Mr Siddhant Chaturvedi</p>
+          <p class="m-0">Mr Siddhant Chaturvedi</p>
+          <h6 class="m-0 text-danger">Finance Chair</h6>
         </div>
         <div class="o-card">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
-            class="o-card-img"
+            class="o-card-img p-0 mb-3"
           />
-          <h4>Web Chair</h4>
-          <p>Dr. Abhilasha Chaudhary</p>
+          <p class="m-0">Dr. Abhilasha Chaudhary</p>
+          <h6 class="m-0 text-danger">Web Chair</h6>
         </div>
       </div>
     </div>
-  </div>
+  </page-wrapper>
 </template>
 
 <script>
+import pageWrapper from '~/components/page-wrapper.vue'
 export default {
+  components: { pageWrapper },
   name: 'IndexPage',
 }
 </script>

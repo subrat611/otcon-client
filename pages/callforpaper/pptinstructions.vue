@@ -1,5 +1,12 @@
 <template>
-  <div>
+  <page-wrapper>
+    <page-header>
+      <h2 class="">Call For Papers</h2>
+      <h5 class="mt-3 text-light">
+        2nd OPJU International Conference On Emerging Technologies And
+        Sustainable Development
+      </h5>
+    </page-header>
     <div class="container">
       <div class="row my-2 py-2 bg-light text-sm-center">
         <div class="col-sm-4">
@@ -13,14 +20,16 @@
           >
         </div>
       </div>
-      <h1>PPT Instructions</h1>
-      <p>Comming Soon</p>
+      <h4 class="mt-5">PPT Instructions</h4>
+      <coming-soon />
     </div>
-  </div>
+  </page-wrapper>
 </template>
 
 <script>
+import pageWrapper from '~/components/page-wrapper.vue'
 export default {
+  components: { pageWrapper },
   name: 'PPTInstructionsPage',
 }
 </script>

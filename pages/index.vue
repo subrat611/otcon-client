@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="container-fluid px-0">
+    <div class="container-fluid">
+      <!-- header -->
       <div class="container text-center">
         <div class="row align-items-center hero-content pt-5">
           <div class="col-12">
@@ -44,9 +45,7 @@
               <p>sec</p>
             </div>
           </div>
-          <h5 class="text-light text-uppercase fw-bolder mt-3">
-            Event Starts In
-          </h5>
+          <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
           <div class="col my-5">
             <p class="text-light">
               OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
@@ -56,285 +55,65 @@
         </div>
       </div>
     </div>
+
+    <!-- notice -->
     <div class="noitce">
       <marquee class="alert alert-info" behavior="scroll"
         >Accepted and presented papers will be submitted for inclusion into IEEE
         Xplore</marquee
       >
     </div>
-    <div class="container mt-4 py-4">
-      <h1 class="text-center py-4">Conference Tracks</h1>
-      <div class="row row-cols-3">
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Emerging And Intelligent Computing</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">
-                    Communication Control And Networking
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Renewable Energy And Power System</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Bio Informatics And Health Care</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">IoT Automation And Manufacturing</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Signal And Image Processing</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">
-                    Cyber Physical System And Metaverse
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">
-                    Education Environment And Economics
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container mt-4 py-4"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias qui
-          dolorem omnis aliquam? Veniam error dolorum labore! Cum odit nemo
-          repellat dolore explicabo quos voluptates ratione exercitationem,
-          numquam voluptatibus alias nihil aliquam illum, molestias sint vitae
-          facilis eos quam blanditiis! Culpa saepe voluptatibus delectus
-          voluptatem at incidunt dolorum quo, numquam placeat fugiat iusto
-          magni, facilis exercitationem ratione error cupiditate vitae
-          voluptates provident tempore nobis quidem sapiente! Deserunt eveniet,
-          fuga nobis corrupti corporis eligendi rerum nihil minima!
-          Exercitationem veniam facere voluptas facilis ad quidem dolorem et
-          optio cupiditate, eos magnam repellat quasi libero dolor repudiandae
-          sequi officiis quis molestias excepturi? Modi blanditiis, aliquam
-          excepturi quas in cupiditate vero nisi provident vel! Aliquam,
-          quaerat, doloremque repellendus nihil nam veniam corrupti adipisci
-          architecto rem obcaecati illo? Nisi rerum, eaque fuga excepturi qui
-          incidunt commodi perspiciatis enim similique natus assumenda iure nam
-          dolorum, alias expedita dignissimos veniam recusandae blanditiis,
-          harum sint ea officiis dolore. Dignissimos nobis ipsum at a! Eaque
-          libero non asperiores nihil ducimus pariatur? Adipisci necessitatibus
-          porro voluptatibus quaerat hic assumenda at aut natus quae! Expedita
-          est officiis quibusdam commodi voluptate sed amet, assumenda possimus
-          magnam quidem quisquam repellat eveniet, laudantium asperiores?
-          Maiores reprehenderit eligendi molestiae ullam iusto fugit minima
-          doloremque in. Libero ut neque molestias unde. Quis veniam debitis
-          porro expedita eligendi qui laborum libero consectetur fugit, maiores
-          necessitatibus in vero aliquam aperiam! Libero minus ipsam excepturi
-          ad, officia cumque expedita, odit culpa est aliquam modi sequi iure
-          suscipit eum, corporis quod doloribus dolores voluptates accusamus.
-          Ullam numquam laborum, pariatur enim, aliquam ipsum facere
-          reprehenderit tenetur magnam ab omnis nisi quo expedita cupiditate
-          consequuntur inventore magni. Quibusdam id laudantium, cumque eveniet
-          velit minus vero quis, qui ratione, quasi optio tenetur. Explicabo
-          quisquam nemo repellendus laborum enim, vero, rem nisi obcaecati autem
-          corporis magnam officiis adipisci porro distinctio quod unde eum. At
-          delectus distinctio consequuntur commodi qui quas repudiandae eligendi
-          architecto. Quas esse reprehenderit debitis ea rerum, ex eveniet
-          veniam fuga, ullam obcaecati quo vitae odio aliquid. Error porro neque
-          alias natus, dolorum labore maiores facilis sequi magni molestias
-          possimus quo? Facere, autem molestias nobis deserunt voluptates,
-          corrupti assumenda exercitationem alias illum velit tempora nemo
-          consequatur, ea rem accusamus quae omnis labore architecto voluptas!
-          Beatae doloribus culpa libero accusantium ab assumenda veniam quidem
-          necessitatibus, a cum optio quaerat iste blanditiis dolore asperiores
-          minus officiis nostrum veritatis dolor dicta ipsam pariatur? Amet
-          sequi quia perspiciatis cum autem, quo quisquam assumenda repudiandae
-          labore eos pariatur doloribus corporis modi maxime ipsum. Deserunt
-          accusamus ipsum, saepe maiores debitis consequuntur ipsa eius iste
-          natus atque velit quo? Voluptatum expedita, aliquam eius cumque
-          debitis quae, culpa velit ratione pariatur corrupti necessitatibus qui
-          autem, dolorum doloremque ex architecto aperiam fugit facilis officia
-          ipsum eligendi adipisci? Magni minima quidem atque fuga vel eaque
-          veritatis reprehenderit accusamus iusto unde illum cumque esse
-          tenetur, aliquid suscipit sed praesentium, rem nihil autem, aperiam
-          distinctio consequatur tempora. Doloremque sint odio iste quod,
-          necessitatibus, est accusamus atque vitae voluptatem adipisci ratione
-          suscipit commodi omnis eaque veniam tempore blanditiis quibusdam
-          officia! Exercitationem, nihil cupiditate dicta pariatur rem quae
-          porro quam vitae minima omnis quas est illum saepe? Doloremque
-          perspiciatis quasi cumque libero praesentium modi dolorum, vero optio
-          est labore eveniet facilis dicta atque corrupti beatae saepe tempore
-          impedit officiis. Nostrum, enim labore minus id, dolorem quibusdam,
-          similique voluptatum nihil temporibus necessitatibus odit? Cum magni
-          tenetur nesciunt culpa dolore labore minima ab pariatur. Numquam
-          aperiam dolor aspernatur delectus molestias quidem in, reprehenderit
-          sit eos ipsum iusto minima similique labore, quae vitae corporis!
-          Soluta accusamus consequatur deserunt officiis saepe, harum obcaecati
-          corporis iusto, voluptates facilis ullam nostrum dolore, odio
-          cupiditate. Tenetur adipisci similique est modi repellat praesentium
-          ad sit culpa magnam cupiditate, porro nisi atque esse eaque eius
-          aspernatur qui ullam delectus a eligendi eum. Perferendis fugiat neque
-          velit dolorum. Magni libero aliquid deleniti, mollitia dicta corrupti
-          eveniet praesentium. Tenetur aperiam deserunt debitis, accusamus
-          reiciendis ea. Est eaque voluptatem cum nisi eum quas quae, sapiente
-          cupiditate ipsam qui iste sit suscipit harum dicta iure. Deleniti
-          mollitia ea provident nostrum, consequuntur voluptate obcaecati
-          eligendi distinctio earum vero quos perspiciatis inventore fuga rerum.
-          Optio minus fugiat dolorum eos odio fugit repellendus ab quia quidem
-          nulla quod, impedit consectetur id esse error perspiciatis porro omnis
-          alias asperiores illum soluta officia dolore dicta expedita? Soluta
-          laboriosam vitae assumenda reiciendis nemo sunt obcaecati magnam ad
-          perspiciatis, at sapiente inventore officiis pariatur, dolor iure,
-          quos quibusdam consectetur modi. Quo magni qui adipisci sed ullam
-          expedita quasi, inventore facilis ducimus dolor illo voluptatibus
-          impedit sapiente excepturi, labore officia, recusandae eum. Eveniet
-          totam minima id ipsam quasi exercitationem, nihil maxime possimus
-          voluptatum qui corporis, eligendi ducimus veritatis architecto quae
-          quos facere adipisci. Laborum reiciendis consectetur quod sit,
-          consequuntur excepturi natus, ipsum, porro voluptate aspernatur eos
-          accusamus nostrum? Saepe natus ullam id ipsa assumenda consequuntur
-          aperiam, laboriosam dolorem possimus quis veritatis aliquam, illo,
-          quisquam eos. Sit molestiae delectus maiores quis placeat fuga optio
-          animi consequuntur? Libero eaque, molestias est provident amet quo
-          omnis, placeat odit tenetur, unde optio commodi. Hic eum, ipsum non,
-          doloribus magnam eaque consectetur accusantium vitae quibusdam, optio
-          animi facilis voluptate maiores minima architecto? Enim iure nesciunt
-          quibusdam veritatis rerum doloribus neque quae expedita explicabo?
-          Consectetur nostrum amet mollitia debitis, obcaecati vitae tenetur
-          rerum facere fugiat, laboriosam repellat cumque inventore dicta
-          doloribus hic labore minima sequi odit tempora ut. Provident, quidem,
-          culpa reprehenderit libero officia at laborum distinctio pariatur
-          ipsam saepe commodi accusamus ex unde tempora aliquam. Obcaecati illo
-          eius animi commodi libero tempora, enim ea reiciendis, impedit
-          recusandae nisi. Illo, vitae cupiditate distinctio molestias,
-          explicabo minus reprehenderit ab quos quaerat atque debitis numquam!
-          Architecto commodi alias, expedita at, ipsa fugit consectetur saepe
-          animi consequuntur itaque odit odio vero exercitationem quo nemo
-          quisquam eveniet dolore, illum ab suscipit a aliquam! Minus facere at
-          vero repellat odit. Libero repudiandae amet delectus eveniet deserunt
-          tempore, sunt quam at, iusto cumque harum voluptas dignissimos
-          provident a vel, ad suscipit. Officia exercitationem doloribus fugit
-          quia eligendi? In perspiciatis aut corrupti? Vero cumque laudantium
-          officiis iste debitis voluptas quod impedit. Omnis iure numquam nihil
-          at quae ut est exercitationem!
+          <!-- conference tracks -->
+          <div class="">
+            <h4 class="py-4">Conference Tracks</h4>
+            <div class="row">
+              <div
+                v-for="(track, index) in tracks"
+                :key="index"
+                class="col-lg-6 col-sm-12 mb-3"
+              >
+                <div class="card text-center d-flex align-items-center">
+                  <img class="track-img" :src="track.img" :alt="track.title" />
+                  <h6 class="mb-4">{{ track.title }}</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Conference Sponsor -->
+          <div class="sponsors">
+            <h1 class="my-4 py-4">Conference Sponsers</h1>
+            <div class="row">
+              <div class="col">
+                <img
+                  class="sponsor-logo"
+                  src="~/assets/images/opjulogo.png"
+                  alt="sponser"
+                  style="width: 90px"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="~/assets/images/cgcost.png"
+                  alt="sponser"
+                  class="sponsor-logo"
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="sponsor-logo"
+                  src="~/assets/images/QCI-Logo.png"
+                  alt="sponser"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- fixed right section -->
         <div class="col-lg-4">
           <div class="important-dates sticky-top py-5">
             <h5 class="py-4">Important Dates</h5>
@@ -410,28 +189,6 @@
         </div>
       </div>
     </div>
-    <div class="container mt-4 py-4">
-      <h1 class="my-4 py-4">Conference Sponsers</h1>
-      <div class="row">
-        <div class="col text-center">
-          <img
-            src="~/assets/images/opjulogo.png"
-            alt="sponser"
-            style="width: 90px"
-          />
-        </div>
-        <div class="col">
-          <img
-            src="~/assets/images/cgcost.png"
-            alt="sponser"
-            class="cg-cost-img"
-          />
-        </div>
-        <div class="col-12 col-md-auto text-center">
-          <img src="~/assets/images/QCI-Logo.png" alt="sponser" />
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -444,6 +201,40 @@ export default {
       hours: 0,
       mins: 0,
       sec: 0,
+      tracks: [
+        {
+          title: 'Emerging And Intelligent Computing',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Communication Control And Networking',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Renewable Energy And Power System',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Bio Informatics And Health Care',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'IoT Automation And Manufacturing',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Signal And Image Processing',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Cyber Physical System And Metaverse',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Education Environment And Economics',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+      ],
     }
   },
   mounted() {
@@ -500,7 +291,14 @@ export default {
   color: skyblue;
 }
 
-.timer:hover {
-  background: rgba(255, 255, 255, 0.707);
+.track-img {
+  width: 70px;
+  height: auto;
+  margin: 1rem;
+}
+
+.sponsor-logo {
+  width: auto;
+  height: 70px;
 }
 </style>

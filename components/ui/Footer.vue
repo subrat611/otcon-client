@@ -1,6 +1,9 @@
 <template>
   <div class="py-5 bg-light text-center">
-    <p>OTCON 2.0</p>
+    <p class="fw-bold">OTCON 2.0</p>
+    <div>
+      <small>&copy; Copyright 2022 OTCON - All Rights Reserved.</small>
+    </div>
   </div>
 </template>
 
