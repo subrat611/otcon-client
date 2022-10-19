@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="container-fluid pt-5">
+    <div class="container-fluid">
+      <!-- header -->
       <div class="container text-center">
         <div class="row align-items-center hero-content pt-5">
           <div class="col-12">
@@ -25,28 +26,26 @@
             "
           >
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
-              <h3>{{ days }}</h3>
+              <h3 class="timer">{{ days }}</h3>
               <p>days</p>
             </div>
             <div class="me-3"><h2>:</h2></div>
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
-              <h3>{{ hours }}</h3>
+              <h3 class="timer">{{ hours }}</h3>
               <p>hours</p>
             </div>
             <div class="me-3"><h2>:</h2></div>
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
-              <h3>{{ mins }}</h3>
+              <h3 class="timer">{{ mins }}</h3>
               <p>mins</p>
             </div>
             <div class="me-3"><h2>:</h2></div>
             <div class="col-2 col-md-1 border rounded pt-4">
-              <h3>{{ sec }}</h3>
+              <h3 class="timer">{{ sec }}</h3>
               <p>sec</p>
             </div>
           </div>
-          <h5 class="text-light text-uppercase fw-bolder mt-3">
-            Event Starts In
-          </h5>
+          <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
           <div class="col my-5">
             <p class="text-light">
               OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
@@ -56,368 +55,137 @@
         </div>
       </div>
     </div>
-    <div class="container mt-4 py-4">
-      <h1 class="text-center py-4">Conference Tracks</h1>
-      <div class="o-conf-track">
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389222.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Emerging And Intelligent Computing</h5>
+
+    <!-- notice -->
+    <div class="noitce">
+      <marquee class="alert alert-info" behavior="scroll"
+        >Accepted and presented papers will be submitted for inclusion into IEEE
+        Xplore</marquee
+      >
+    </div>
+    <div class="container mt-4 py-4"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <!-- conference tracks -->
+          <div class="">
+            <h4 class="py-4">Conference Tracks</h4>
+            <div class="row">
+              <div
+                v-for="(track, index) in tracks"
+                :key="index"
+                class="col-lg-6 col-sm-12 mb-3"
+              >
+                <div class="card text-center d-flex align-items-center">
+                  <img class="track-img" :src="track.img" :alt="track.title" />
+                  <h6 class="mb-4">{{ track.title }}</h6>
+                </div>
+              </div>
+            </div>
           </div>
-          <ol class="track-data-items">
-            <li>Artificial Intelligence, and Machine Learning</li>
-            <li>Blockchain Technologies</li>
-            <li>Cloud and Distributed Computing</li>
-            <li>Data Sciences</li>
-            <li>Geographic Information System</li>
-            <li>Human-Computer Interactions</li>
-            <li>Quantum Computing</li>
-            <li>Software Architectures, and Design Patterns</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389099.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Communication, Control, and Networking</h5>
+          <!-- Conference Sponsor -->
+          <div class="sponsors">
+            <h1 class="my-4 py-4">Conference Sponsers</h1>
+            <div class="row">
+              <div class="col">
+                <img
+                  class="sponsor-logo"
+                  src="~/assets/images/opjulogo.png"
+                  alt="sponser"
+                  style="width: 90px"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="~/assets/images/cgcost.png"
+                  alt="sponser"
+                  class="sponsor-logo"
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="sponsor-logo"
+                  src="~/assets/images/QCI-Logo.png"
+                  alt="sponser"
+                />
+              </div>
+            </div>
           </div>
-          <ol class="track-data-items">
-            <li>Cognitive Radio System</li>
-            <li>Edge Computing and 5G</li>
-            <li>Feedback Control System</li>
-            <li>Instrumentation And Control</li>
-            <li>Mobile And optical Communication</li>
-            <li>Sensor Network</li>
-            <li>Social and Smart Networking</li>
-            <li>Wireless Communication</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/4515/4515708.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Renewable Energy, and Power System</h5>
-          </div>
-          <ol class="track-data-items">
-            <li>Electrical Vehicle, and Charging Techniques</li>
-            <li>Energy Efficient Drives</li>
-            <li>Energy harvesting, and Storage Techniques</li>
-            <li>High-voltage Engineering, and Technologies</li>
-            <li>Power Electronics, and Its Application</li>
-            <li>Power Quality Improvement Techniques</li>
-            <li>Renewable Energy Technologies, and Issues</li>
-            <li>Renewable Power Conversion Technologies</li>
-            <li>Smart-grid Technologies, and Issues</li>
-            <li>Soft Computing in Power Systems</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389099.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Bio-Informatics, and Healthcare</h5>
-          </div>
-          <ol class="track-data-items">
-            <li>Biomedical Intelligence, and Computing</li>
-            <li>Biomedical Signal, and Image Processing</li>
-            <li>Biotechnology, and Pharmaceutical</li>
-            <li>Healthcare Informatics, and Support System</li>
-            <li>Immunology Informatics</li>
-            <li>Medical Diagnostics Informatics</li>
-            <li>Remote Healthcare</li>
-            <li>Smart Clinical Trails</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389099.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">IoT Automation, and Manufacturing</h5>
-          </div>
-          <ol class="track-data-items">
-            <li>AI-Driven Industrial Automation</li>
-            <li>IoT-based Smart Systems</li>
-            <li>Human-Machine Communication</li>
-            <li>Precision Agriculture</li>
-            <li>Robotics Process Automation</li>
-            <li>Sensors and Actuators</li>
-            <li>Smart and Intelligent Manufacturing</li>
-            <li>Smart Cities and Villages</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389099.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Signal and Image Processing</h5>
-          </div>
-          <ol class="track-data-items">
-            <li>Cognitive Information Processing</li>
-            <li>Computer Vision and Image Analysis</li>
-            <li>Digital Video and Image Processing</li>
-            <li>Features Detection</li>
-            <li>Pattern Recognition</li>
-            <li>Speech and Language Processing</li>
-            <li>Statistical Signal Processing</li>
-            <li>Devices and Signal Processing</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389099.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Cyber-Physical System and Metaverse</h5>
-          </div>
-          <ol class="track-data-items">
-            <li>Augmented and Virtual Reality</li>
-            <li>Cryptocurrencies</li>
-            <li>Cryptography</li>
-            <li>Gamification</li>
-            <li>Non-Fungible Tokens (NFTs)</li>
-            <li>Security and Privacy Issues</li>
-            <li>Security Framework, Protocol, and Architectures</li>
-            <li>Trustless Systems</li>
-          </ol>
-        </div>
-        <div class="o-conf-track-data">
-          <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/64/8389/8389099.png"
-              alt="icon"
-              class="img-fluid rounded-start py-3"
-            />
-            <h5 class="fw-semibold">Education, Environment, and Economics</h5>
-          </div>
-          <ol class="track-data-items">
-            <li>Business Intelligence</li>
-            <li>Digital and Internet Economics</li>
-            <li>Digital Finance</li>
-            <li>Digital Marketing</li>
-            <li>E-Commerce</li>
-            <li>Industrial Waste Management and Recycling System</li>
-            <li>Informatics for Economic planning</li>
-            <li>Intelligent eLearning System</li>
-            <li>Learning Analytics and Evaluation System</li>
-            <li>Remote Education Solutions</li>
-            <li>Solid and Water Waste Management and Recycling System</li>
-            <li>Sustainable and Digital Entrepreneurship</li>
-            <li>Virtual Classroom and Metaverse</li>
-          </ol>
         </div>
 
-        <!-- <div class="col-6">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
+        <!-- fixed right section -->
+        <div class="col-lg-4">
+          <div class="important-dates sticky-top py-5">
+            <h5 class="py-4">Important Dates</h5>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <strong>Paper Submission Due</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">30th November 2022</div>
+                </div>
               </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">
-                    Communication Control And Networking
-                  </h5>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <strong>Notification of Acceptance</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">15th December 2022</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <strong>Camera Ready Submission</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">10th January 2023</div>
                 </div>
               </div>
             </div>
           </div>
-        </div> -->
-        <!-- <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Renewable Energy And Power System</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Bio Informatics And Health Care</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">IoT Automation And Manufacturing</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">Signal And Image Processing</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">
-                    Cyber Physical System And Metaverse
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-3 p-2" style="max-width: 440px">
-            <div class="row g-0 align-items-center">
-              <div class="col-md-auto">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/64/2821/2821637.png"
-                  class="img-fluid rounded-start"
-                  alt="img"
-                />
-              </div>
-              <div class="col-md-10">
-                <div class="card-body pe-0">
-                  <h5 class="card-title">
-                    Education Environment And Economics
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </div>
-    <div class="container mt-4 py-4">
-      <h1 class="py-4">Important Dates</h1>
-      <div class="row mt-5">
-        <div class="col-12 d-flex align-items-center text-center">
-          <div class="col-2 p-2 py-5 o-border-date-color">
-            <h2>
-              30th Nov<br />
-              2022
-            </h2>
-          </div>
-          <div class="col-5 text-start px-4">
-            <h3>Paper Submission Due</h3>
-          </div>
-        </div>
-        <div class="col-12 d-flex align-items-center text-center">
-          <div class="col-2 p-2 py-5 o-border-date-color">
-            <h2>
-              15th Dec<br />
-              2022
-            </h2>
-          </div>
-          <div class="col-5 text-start px-4">
-            <h3>Notification of Acceptance</h3>
-          </div>
-        </div>
-        <div class="col-12 d-flex align-items-center text-center">
-          <div class="col-2 p-2 py-5 o-border-date-color">
-            <h2>
-              10th Jan<br />
-              2023
-            </h2>
-          </div>
-          <div class="col-5 text-start px-4">
-            <h3>Camera Ready Submission</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-4 py-4">
-      <h1 class="my-4 py-4">Conference Sponsers</h1>
-      <div class="row">
-        <div class="col text-center">
-          <img
-            src="~/assets/images/opjulogo.png"
-            alt="sponser"
-            style="width: 90px"
-          />
-        </div>
-        <div class="col">
-          <img
-            src="~/assets/images/cgcost.png"
-            alt="sponser"
-            class="cg-cost-img"
-          />
-        </div>
-        <div class="col-12 col-md-auto text-center">
-          <img src="~/assets/images/QCI-Logo.png" alt="sponser" />
         </div>
       </div>
     </div>
@@ -433,6 +201,40 @@ export default {
       hours: 0,
       mins: 0,
       sec: 0,
+      tracks: [
+        {
+          title: 'Emerging And Intelligent Computing',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Communication Control And Networking',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Renewable Energy And Power System',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Bio Informatics And Health Care',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'IoT Automation And Manufacturing',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Signal And Image Processing',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Cyber Physical System And Metaverse',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+        {
+          title: 'Education Environment And Economics',
+          img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+        },
+      ],
     }
   },
   mounted() {
@@ -504,5 +306,20 @@ export default {
   .cg-cost-img {
     width: 20rem;
   }
+}
+
+.timer {
+  color: skyblue;
+}
+
+.track-img {
+  width: 70px;
+  height: auto;
+  margin: 1rem;
+}
+
+.sponsor-logo {
+  width: auto;
+  height: 70px;
 }
 </style>

@@ -16,6 +16,6 @@ export default {
 
 <style  scoped>
 .o-main-wrapper {
-  padding: 0 0 0 0;
+  padding: 56px 0 0 0;
 }
 </style>

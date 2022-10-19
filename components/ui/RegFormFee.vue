@@ -4,7 +4,7 @@
     <div class="container mt-4">
       <div class="row">
         <div class="col">
-          <h1>Registration Fee</h1>
+          <h4>Registration Fee</h4>
         </div>
         <div class="col-12 mt-3">
           <table class="table">

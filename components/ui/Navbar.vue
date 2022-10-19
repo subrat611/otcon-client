@@ -1,7 +1,10 @@
 <template>
-  <nav data-aos="fade-down" class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <nav
+    :class="{ 'navbar-dark bg-dark': scrollPosition > getWindowHeight() }"
+    class="navbar navbar-expand-lg bg-light fixed-top shadow-sm"
+  >
     <div class="container">
-      <a class="navbar-brand text-dark fw-bold" href="/">OTCON 2.0</a>
+      <a class="navbar-brand fw-bold" href="/">OTCON 2.0</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,36 +19,34 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/">Home</nuxt-link>
+            <nuxt-link class="nav-link" to="/">Home</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/about">About</nuxt-link>
+            <nuxt-link class="nav-link" to="/about">About</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/404">Program</nuxt-link>
+            <nuxt-link class="nav-link" to="/404">Program</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/registration"
+            <nuxt-link class="nav-link" to="/registration"
               >Registration</nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/callforpaper"
+            <nuxt-link class="nav-link" to="/callforpaper"
               >Call for papers</nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/committee"
-              >Committees</nuxt-link
-            >
+            <nuxt-link class="nav-link" to="/committee">Committees</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="/keynote"
+            <nuxt-link class="nav-link" to="/keynote"
               >Keynote speaker</nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link text-dark" to="#">Contact us</nuxt-link>
+            <nuxt-link class="nav-link" to="#">Contact us</nuxt-link>
           </li>
         </ul>
       </div>
@@ -56,11 +57,30 @@
 <script>
 export default {
   name: 'ui-navbar',
+  data() {
+    return {
+      scrollPosition: null,
+    }
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY
+    },
+    getWindowHeight() {
+      return window.innerHeight
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll)
+  },
 }
 </script>
 
 <style scoped>
 .navbar {
-  background-color: #ffffff;
+  transition: all 0.5s;
+}
+.nav-item {
+  font-size: 12px !important;
 }
 </style>
