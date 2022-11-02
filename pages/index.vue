@@ -11,11 +11,16 @@
               class="iee-img"
             />
           </div>
-          <div class="col-12 mt-5">
+          <div class="col-12">
             <p data-aos="fade-up" class="o-title text-light fw-bolder">
               OTCON 2.0
             </p>
+            <p class="text-light fs-3 o-desc">
+              OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
+              Technology for Sustainable Development (8-10 Feb, 2023)
+            </p>
           </div>
+          <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
           <div
             class="
               col-12
@@ -23,6 +28,8 @@
               d-flex
               justify-content-center
               align-items-center
+              mb-5
+              pb-3
             "
           >
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
@@ -44,13 +51,6 @@
               <h3 class="timer">{{ sec }}</h3>
               <p>sec</p>
             </div>
-          </div>
-          <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
-          <div class="col my-5">
-            <p class="text-light">
-              OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
-              Technology for Sustainable Development (8-10 Feb, 2023)
-            </p>
           </div>
         </div>
       </div>
@@ -80,6 +80,13 @@
                   <img class="track-img" :src="track.img" :alt="track.title" />
                   <h6 class="mb-4">{{ track.title }}</h6>
                 </div>
+                <div
+                  v-for="(data, index) in track.subTrack"
+                  :key="index"
+                  class="border-start border-success border-2 pt-2 ms-2 mb-0"
+                >
+                  <p class="ps-3 mb-0 pt-2">{{ data }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -87,12 +94,12 @@
           <div class="sponsors">
             <h1 class="my-4 py-4">Conference Sponsers</h1>
             <div class="row">
-              <div class="col">
+              <div class="col text-center">
                 <img
                   class="sponsor-logo"
                   src="~/assets/images/opjulogo.png"
                   alt="sponser"
-                  style="width: 90px"
+                  style="width: 90px; height: 90px"
                 />
               </div>
               <div class="col">
@@ -102,20 +109,13 @@
                   class="sponsor-logo"
                 />
               </div>
-              <div class="col">
-                <img
-                  class="sponsor-logo"
-                  src="~/assets/images/QCI-Logo.png"
-                  alt="sponser"
-                />
-              </div>
             </div>
           </div>
         </div>
 
         <!-- fixed right section -->
         <div class="col-lg-4">
-          <div class="important-dates sticky-top py-5">
+          <div class="important-dates sticky-top py-5 mb-2">
             <h5 class="py-4">Important Dates</h5>
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
@@ -186,6 +186,39 @@
               </div>
             </div>
           </div>
+          <div class="important-dates sticky-top pt-5 mt-5">
+            <div class="accordion mt-5" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    <strong>Important Links</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <a
+                      href="https://easychair.org/conferences/?conf=otcon2022"
+                      target="_blank"
+                    >
+                      Submit Paper »
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -205,34 +238,121 @@ export default {
         {
           title: 'Emerging And Intelligent Computing',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Artificial Intelligence, and Machine Learning',
+            'Blockchain Technologies',
+            'Cloud and Distributed Computing',
+            'Data Sciences',
+            'Geographic Information System',
+            'Human-Computer Interactions',
+            'Quantum Computing',
+            'Software Architectures, and Design Patterns',
+          ],
         },
         {
           title: 'Communication Control And Networking',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Cognitive Radio System',
+            'Edge Computing and 5G',
+            'Feedback Control System',
+            'Instrumentation And Control',
+            'Mobile And optical Communication',
+            'Sensor Network',
+            'Social and Smart Networking',
+            'Wireless Communication',
+          ],
         },
         {
           title: 'Renewable Energy And Power System',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Electrical Vehicle, and Charging Techniques',
+            'Energy Efficient Drives',
+            'Energy harvesting, and Storage Techniques',
+            'High-voltage Engineering, and Technologies',
+            'Power Electronics, and Its Application',
+            'Power Quality Improvement Techniques',
+            'Renewable Energy Technologies, and Issues',
+            'Renewable Power Conversion Technologies',
+            'Smart-grid Technologies, and Issues',
+            'Soft Computing in Power Systems',
+          ],
         },
         {
           title: 'Bio Informatics And Health Care',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Biomedical Intelligence, and Computing',
+            'Biomedical Signal, and Image Processing',
+            'Biotechnology, and Pharmaceutical',
+            'Healthcare Informatics, and Support System',
+            'Immunology Informatics',
+            'Medical Diagnostics Informatics',
+            'Remote Healthcare',
+            'Smart Clinical Trails',
+          ],
         },
         {
           title: 'IoT Automation And Manufacturing',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'AI-Driven Industrial Automation',
+            'IoT-based Smart Systems',
+            'Human-Machine Communication',
+            'Precision Agriculture',
+            'Robotics Process Automation',
+            'Sensors and Actuators',
+            'Smart and Intelligent Manufacturing',
+            'Smart Cities and Villages',
+          ],
         },
         {
           title: 'Signal And Image Processing',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Cognitive Information Processing',
+            'Computer Vision and Image Analysis',
+            'Digital Video and Image Processing',
+            'Features Detection',
+            'Pattern Recognition',
+            'Speech and Language Processing',
+            'Statistical Signal Processing',
+            'Devices and Signal Processing',
+          ],
         },
         {
           title: 'Cyber Physical System And Metaverse',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Augmented and Virtual Reality',
+            'Cryptocurrencies',
+            'Cryptography',
+            'Gamification',
+            'Non-Fungible Tokens (NFTs)',
+            'Security and Privacy Issues',
+            'Security Framework, Protocol, and Architectures',
+            'Trustless Systems',
+          ],
         },
         {
           title: 'Education Environment And Economics',
           img: 'https://cdn-icons-png.flaticon.com/64/2821/2821637.png',
+          subTrack: [
+            'Business Intelligence',
+            'Digital and Internet Economics',
+            'Digital Finance',
+            'Digital Marketing',
+            'E-Commerce',
+            'Industrial Waste Management and Recycling System',
+            'Informatics for Economic planning',
+            'Intelligent eLearning System',
+            'Learning Analytics and Evaluation System',
+            'Remote Education Solutions',
+            'Solid and Water Waste Management and Recycling System',
+            'Sustainable and Digital Entrepreneurship',
+            'Virtual Classroom and Metaverse',
+          ],
         },
       ],
     }
@@ -259,7 +379,7 @@ export default {
 
 <style scoped>
 .iee-img {
-  width: 13rem;
+  width: 11rem;
 }
 
 .container-fluid {
@@ -277,8 +397,11 @@ export default {
   height: 100vh;
 }
 .o-title {
-  font-size: 5rem;
+  font-size: 4.5rem;
   letter-spacing: 18px;
+}
+.o-desc {
+  color: #ebf5f7 !important;
 }
 
 .o-conf-track {

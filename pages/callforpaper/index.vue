@@ -3,8 +3,8 @@
     <page-header>
       <h2 class="">Call For Papers</h2>
       <h5 class="mt-3 text-light">
-        2nd OPJU International Conference On Emerging Technologies And
-        Sustainable Development
+        OPJU INTERNATIONAL TECHNOLOGY CONFERENCE On Emerging Technologies for
+        Sustainable Development (8-10 Feb, 2023)
       </h5>
     </page-header>
     <div class="container">
@@ -80,8 +80,8 @@
         </div>
         <div class="col-lg-6">
           <h5 class="fw-bold mb-3">
-            2nd OPJU International Conference On Emerging Technologies And
-            Sustainable Development
+            OPJU INTERNATIONAL TECHNOLOGY CONFERENCE On Emerging Technologies
+            for Sustainable Development (8-10 Feb, 2023)
           </h5>
           <p>
             OTCON 2.0 invites full-length original research contributions from
