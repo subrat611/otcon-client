@@ -185,8 +185,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="important-dates sticky-top pt-5 mt-5">
             <div class="accordion mt-5" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
