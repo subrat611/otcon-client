@@ -22,9 +22,6 @@
             <nuxt-link class="nav-link" to="/">Home</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/about">About</nuxt-link>
-          </li>
-          <li class="nav-item">
             <nuxt-link class="nav-link" to="/404">Program</nuxt-link>
           </li>
           <li class="nav-item">
