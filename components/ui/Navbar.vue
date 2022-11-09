@@ -80,7 +80,4 @@ export default {
 .navbar {
   transition: all 0.5s;
 }
-.nav-item {
-  font-size: 12px !important;
-}
 </style>
