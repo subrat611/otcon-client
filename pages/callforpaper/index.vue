@@ -91,7 +91,7 @@
             articles not exceeding six pages as per the IEEE double-column
             format can be submitted. The template for the paper may be
             downloaded from
-            <a href="#">here</a>.
+            <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-template-A4.doc">here</a>.
             <br />
             <br />
             The manuscript should contribute original research ideas,
@@ -106,7 +106,7 @@
             A soft-copy of the full-length manuscripts in IEEE double-column
             format should be submitted electronically via Easy Chair through
             this
-            <a href="#">Link</a>. All the submitted manuscripts will be sent for
+            <a href="https://easychair.org/conferences/?conf=otcon2022">Link</a>. All the submitted manuscripts will be sent for
             peer review and the corresponding author will be notified about the
             outcome of the review process. If reviewers recommended further
             improvement in the manuscript, the manuscript will be sent back to

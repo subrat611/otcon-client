@@ -17,7 +17,7 @@
             </p>
             <p class="text-light fs-3 o-desc">
               OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
-              Technology for Sustainable Development (8-10 Feb, 2023)
+              Technologies for Sustainable Development (8-10 Feb, 2023)
             </p>
           </div>
           <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
@@ -90,6 +90,27 @@
               </div>
             </div>
           </div>
+
+          <!-- About section -->
+          <div class="my-3 py-5 pe-2">
+            <h1 class="py-3">About OPJU</h1>
+            <p class="">
+              OP Jindal University (OPJU) has been established under the aegis
+              of the Jindal Education and Welfare Society. The O P Jindal Group
+              is a US$ 22 billion conglomerate, employing more than 50,000
+              people with manufacturing facilities across India, the US, UK,
+              Australia, Indonesia, South Africa, Chile & Mozambique. OPJU is a
+              multidisciplinary university aimed at developing young
+              professionals and future leaders who will not only power the
+              growth and development of the nation but also become responsible
+              citizens of the world. At the core of the university's philosophy
+              and approach lies the belief that students learn best when exposed
+              to real-world situations and when nurtured through enriching
+              interactions with practitioners and professors. Website:
+              <a href="">www.opju.ac.in</a>
+            </p>
+          </div>
+
           <!-- Conference Sponsor -->
           <div class="sponsors">
             <h1 class="my-4 py-4">Conference Sponsers</h1>
@@ -185,25 +206,24 @@
                 </div>
               </div>
             </div>
-            <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion mt-5" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
                   >
                     <strong>Important Links</strong>
                   </button>
                 </h2>
                 <div
-                  id="collapseFour"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingFour"
-                  data-bs-parent="#accordionExample"
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
                 >
                   <div class="accordion-body">
                     <a
