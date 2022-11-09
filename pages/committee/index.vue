@@ -3,161 +3,16 @@
     <page-header>
       <h2 class="">Organizing Committe</h2>
     </page-header>
-
     <div class="container my-4 py-4">
       <div class="o-card-container">
-        <div class="o-card">
+        <div class="o-card" v-for="({name, desig}, i) in committee" :key="i">
           <img
             src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
             alt="img"
             class="o-card-img p-0 mb-3"
           />
-          <p class="m-0">Mr. Naveen Jindal</p>
-          <h6 class="m-0 text-danger">Chief Patron</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Ms. Shallu Jindal</p>
-          <h6 class="m-0 text-danger">Patron</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. R.D. Patidar</p>
-          <h6 class="m-0 text-danger">Chairman</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Ashok Bhansali</p>
-          <h6 class="m-0 text-danger">Convener</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Siddharth S Chakrabarti</p>
-          <h6 class="m-0 text-danger">Convener</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Rakesh Nayak</p>
-          <h6 class="m-0 text-danger">Co-Convener</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Bhupesh Kumar Dewangan</p>
-          <h6 class="m-0 text-danger">Co-Convener</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Bhupesh Kumar Dewangan</p>
-          <h6 class="m-0 text-danger">Co-Convener</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Nitesh Bharadwaj</p>
-          <h6 class="m-0 text-danger">Organizing Secretaries</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Deepak Singh</p>
-          <h6 class="m-0 text-danger">Organizing Secretaries</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Rajesh Jha</p>
-          <h6 class="m-0 text-danger">Joint Secretaries</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Sushree Diptimayee Swain</p>
-          <h6 class="m-0 text-danger">Joint Secretaries</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Saroj Chandra</p>
-          <h6 class="m-0 text-danger">Technical Program Chair</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Sandeep Biswal</p>
-          <h6 class="m-0 text-danger">Publication Chair</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr Sanjay Singh</p>
-          <h6 class="m-0 text-danger">Publicity Chair</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Mr Siddhant Chaturvedi</p>
-          <h6 class="m-0 text-danger">Finance Chair</h6>
-        </div>
-        <div class="o-card">
-          <img
-            src="https://d2975dej41kw79.cloudfront.net/jgu/wp-content/uploads/20220131070136/naveen-1.png"
-            alt="img"
-            class="o-card-img p-0 mb-3"
-          />
-          <p class="m-0">Dr. Abhilasha Chaudhary</p>
-          <h6 class="m-0 text-danger">Web Chair</h6>
+          <p class="m-0">{{name}}</p>
+          <h6 class="m-0 text-danger">{{desig}}</h6>
         </div>
       </div>
     </div>
@@ -169,6 +24,80 @@ import pageWrapper from '~/components/page-wrapper.vue'
 export default {
   components: { pageWrapper },
   name: 'IndexPage',
+  data() {
+    return {
+      committee: [
+        {
+          desig: 'Chief Patron',
+          name: 'Mr. Naveen Jindal',
+        },
+        {
+          desig: 'Patron',
+          name: 'Ms. Shallu Jindal',
+        },
+        {
+          desig: 'Chairman',
+          name: 'Dr. R.D. Patidar',
+        },
+        {
+          desig: 'General Chair',
+          name: 'Dr. Ashok Bhansali (Nominated by IEEE MP Section)',
+        },
+        {
+          desig: 'Convener',
+          name: 'Dr. Bhupesh Kumar Dewangan',
+        },
+        {
+          desig: 'Convener',
+          name: 'Dr. Kalyan Phani',
+        },
+        {
+          desig: 'Co-Convener',
+          name: 'Dr. B.P. Panda',
+        },
+        {
+          desig: 'Co-Convener',
+          name: 'Dr. Sandeep Biswal',
+        },
+        {
+          desig: 'Organizing Secretaries',
+          name: 'Dr. Nitesh Bharadwaj',
+        },
+        {
+          desig: 'Organizing Secretaries',
+          name: 'Dr. Satish Kanhed',
+        },
+        {
+          desig: 'Joint Secretaries',
+          name: 'Dr. Rajesh Jha',
+        },
+        {
+          desig: 'Joint Secretaries',
+          name: 'Dr. Sushree Diptimayee Swain',
+        },
+        {
+          desig: 'Technical Program Chair',
+          name: 'Dr. Saroj Chandra',
+        },
+        {
+          desig: 'Publication Chair',
+          name: 'Dr. Rakesh Nayak',
+        },
+        {
+          desig: 'Publicity Chair',
+          name: 'Dr. Sanjay Singh / Mr. Anup Kumar Bharti',
+        },
+        {
+          desig: 'Finance Chair',
+          name: 'Mr. Siddhant Chaturvedi',
+        },
+        {
+          desig: 'Web Chair',
+          name: 'Dr. Abhilasha Chaudhuri',
+        },
+      ],
+    }
+  },
 }
 </script>
 
