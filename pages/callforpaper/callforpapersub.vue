@@ -52,15 +52,20 @@
                     Please follow the IEEE two-column A4 size standard
                     conference format for preparing your final manuscript also.
                     For more details please visit: the IEEE Templates page
-                    <a href="#">here</a>.
+                    <a
+                      href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-template-A4.doc"
+                      >here</a
+                    >.
                     <br />
-                    Revised Version: Revise your paper based on reviewers’
-                    comments/suggestions (if any). The reviewer’s comments are
-                    available on the same Microsoft paper management site
+                    A soft-copy of the full-length manuscripts in IEEE
+                    double-column format should be submitted electronically via
+                    Easy Chair through this
+                    <a
+                      href="https://easychair.org/conferences/?conf=otcon2022"
+                      target="_blank"
+                      >Link</a
+                    >
                   </p>
-                  <a href="https://cmt3.research.microsoft.com/OTCON2022"
-                    >https://cmt3.research.microsoft.com/OTCON2022</a
-                  >
                   <hr />
                   <p>
                     The maximum page limit is six pages including references. No
@@ -113,6 +118,7 @@
                   eXpress at:
                   <a
                     href="https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress"
+                    target="_blank"
                     >https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress</a
                   >
                 </div>
@@ -226,9 +232,6 @@
             conference. The non-presented paper will not be submitted to IEEE
             Xplore® digital library as per IEEE no-show policy.
           </p>
-          <a class="nav-link text-primary" href="#"
-            >This is an example of a link.</a
-          >
         </div>
       </div>
     </div>

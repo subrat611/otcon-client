@@ -18,6 +18,17 @@
             <p class="text-light fs-3 o-desc">
               OPJU INTERNATIONAL TECHNOLOGY CONFERENCE <br />On Emerging
               Technologies for Sustainable Development (8-10 Feb, 2023)
+              <br />
+              <span
+                class="text-warning fw-semibold"
+                style="font-size: 1rem; letter-spacing: 0.1rem"
+                ><i>Hybrid Mode</i></span
+              >
+              <br />
+              <span class="text-info" style="font-size: 1.2rem"
+                >Venue: O.P. Jindal University, Raigarh, Chhattisgarh,
+                India.</span
+              >
             </p>
           </div>
           <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
@@ -107,7 +118,7 @@
               and approach lies the belief that students learn best when exposed
               to real-world situations and when nurtured through enriching
               interactions with practitioners and professors. Website:
-              <a href="">www.opju.ac.in</a>
+              <a href="https://www.opju.ac.in/" target="_blank">www.opju.ac.in</a>
             </p>
           </div>
 

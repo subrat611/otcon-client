@@ -106,7 +106,7 @@
             A soft-copy of the full-length manuscripts in IEEE double-column
             format should be submitted electronically via Easy Chair through
             this
-            <a href="https://easychair.org/conferences/?conf=otcon2022">Link</a>. All the submitted manuscripts will be sent for
+            <a href="https://easychair.org/conferences/?conf=otcon2022" target="_blank">Link</a>. All the submitted manuscripts will be sent for
             peer review and the corresponding author will be notified about the
             outcome of the review process. If reviewers recommended further
             improvement in the manuscript, the manuscript will be sent back to
