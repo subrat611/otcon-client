@@ -74,12 +74,12 @@ export default {
         },
         {
           img: require('assets/images/8.png'),
-          desig: 'Joint Secretaries',
+          desig: 'Joint Secretary',
           name: 'Dr. Rajesh Jha',
         },
         {
           img: require('assets/images/16.png'),
-          desig: 'Joint Secretaries',
+          desig: 'Joint Secretary',
           name: 'Dr. Sushree Diptimayee Swain',
         },
         {
