@@ -19,34 +19,66 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/">Home</nuxt-link>
+            <nuxt-link class="nav-link" to="/">
+              <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                Home</span
+              >
+            </nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/404">Program</nuxt-link>
+            <nuxt-link class="nav-link" to="/404"
+              ><span
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse"
+              >
+                Program</span
+              ></nuxt-link
+            >
           </li>
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/registration"
-              >Registration</nuxt-link
+              ><span
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse"
+              >
+                Registration</span
+              ></nuxt-link
             >
           </li>
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/callforpaper"
-              >Call for papers</nuxt-link
+              ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                >Call for papers</span
+              ></nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/committee">Committees</nuxt-link>
+            <nuxt-link class="nav-link" to="/committee"
+              ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                >Committees</span
+              ></nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/advisoryboard">Advisory Board</nuxt-link>
+            <nuxt-link class="nav-link" to="/advisoryboard"
+              ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                >Advisory Board</span
+              ></nuxt-link
+            >
           </li>
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/keynote"
-              >Keynote speaker</nuxt-link
+              ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                >Keynote speaker</span
+              ></nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/contactus">Contact us</nuxt-link>
+            <nuxt-link class="nav-link" to="/contactus"
+              ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                >Contact us</span
+              ></nuxt-link
+            >
           </li>
         </ul>
       </div>

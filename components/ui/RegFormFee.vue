@@ -88,4 +88,16 @@
   </div>
 </template>
 
+<style scoped>
+@media (max-width: 430px) {
+  .table {
+    font-size: 11px;
+  }
+}
 
+@media (max-width: 280px) {
+  .table {
+    font-size: 8px;
+  }
+}
+</style>

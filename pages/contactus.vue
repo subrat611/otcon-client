@@ -112,7 +112,7 @@
 
 <script>
 export default {
-  name: 'Contact US',
+  name: 'ContactPage',
 }
 </script>
 

@@ -118,7 +118,9 @@
               and approach lies the belief that students learn best when exposed
               to real-world situations and when nurtured through enriching
               interactions with practitioners and professors. Website:
-              <a href="https://www.opju.ac.in/" target="_blank">www.opju.ac.in</a>
+              <a href="https://www.opju.ac.in/" target="_blank"
+                >www.opju.ac.in</a
+              >
             </p>
           </div>
 
@@ -139,6 +141,7 @@
                   src="~/assets/images/cgcost.png"
                   alt="sponser"
                   class="sponsor-logo"
+                  style="width: 20rem; height: 90px"
                 />
               </div>
             </div>
@@ -457,6 +460,13 @@ export default {
 @media (max-width: 682px) {
   .cg-cost-img {
     width: 20rem;
+  }
+  .o-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .o-desc {
+    font-size: 1rem !important;
   }
 }
 
