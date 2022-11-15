@@ -22,11 +22,16 @@
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <img
-            class="img-fluid rounded"
-            src="~/assets/images/conf-1.jpg"
-            alt="conference image"
-          />
+          <a
+            href="https://easychair.org/conferences/?conf=otcon2022"
+            target="_blank"
+          >
+            <img
+              class="img-fluid rounded"
+              src="~/assets/images/otweb-img.png"
+              alt="conference image"
+            />
+          </a>
           <h3 class="py-2 my-3 rounded text-white text-center bg-info">
             Paper Selection Process
           </h3>
@@ -91,7 +96,10 @@
             articles not exceeding six pages as per the IEEE double-column
             format can be submitted. The template for the paper may be
             downloaded from
-            <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-template-A4.doc">here</a>.
+            <a
+              href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-template-A4.doc"
+              >here</a
+            >.
             <br />
             <br />
             The manuscript should contribute original research ideas,
@@ -106,15 +114,19 @@
             A soft-copy of the full-length manuscripts in IEEE double-column
             format should be submitted electronically via Easy Chair through
             this
-            <a href="https://easychair.org/conferences/?conf=otcon2022" target="_blank">Link</a>. All the submitted manuscripts will be sent for
-            peer review and the corresponding author will be notified about the
-            outcome of the review process. If reviewers recommended further
-            improvement in the manuscript, the manuscript will be sent back to
-            the corresponding author and the revised version of the manuscript
-            shall be submitted within the due date. The deadlines for submission
-            of the manuscript, acceptance notification, camera-ready paper
-            submission, and registration will be notified on the conference
-            website. Any query regarding submission may be addressed to
+            <a
+              href="https://easychair.org/conferences/?conf=otcon2022"
+              target="_blank"
+              >Link</a
+            >. All the submitted manuscripts will be sent for peer review and
+            the corresponding author will be notified about the outcome of the
+            review process. If reviewers recommended further improvement in the
+            manuscript, the manuscript will be sent back to the corresponding
+            author and the revised version of the manuscript shall be submitted
+            within the due date. The deadlines for submission of the manuscript,
+            acceptance notification, camera-ready paper submission, and
+            registration will be notified on the conference website. Any query
+            regarding submission may be addressed to
             <strong
               >otcon@opju.ac.in. Accepted and presented papers will be submitted
               for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s
