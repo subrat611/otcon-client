@@ -177,5 +177,8 @@ export default {
       ],
     }
   },
+  head: {
+    title: 'Call For Papers | OPJU International Technology Conference | 2022',
+  },
 }
 </script>

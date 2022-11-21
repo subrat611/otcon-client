@@ -115,6 +115,10 @@ export default {
       ],
     }
   },
+  head: {
+    title:
+      'Organizing Committe | OPJU International Technology Conference | 2022',
+  },
 }
 </script>
 
@@ -147,7 +151,7 @@ export default {
     justify-content: center;
   }
   .o-card {
-   width: 15rem;
+    width: 15rem;
   }
 }
 </style>

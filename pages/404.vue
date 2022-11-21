@@ -13,6 +13,9 @@
 <script>
 export default {
   name: 'PageNotFound',
+  head: {
+    title: '404',
+  },
 }
 </script>
 

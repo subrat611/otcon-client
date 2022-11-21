@@ -49,5 +49,8 @@
 <script>
 export default {
   name: 'RegistrationPage',
+  head: {
+    title: 'Registration | OPJU International Technology Conference | 2022',
+  },
 }
 </script>

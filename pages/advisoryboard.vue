@@ -16,5 +16,9 @@
 <script>
 export default {
   name: 'AdvisoryBoardPage',
+  head: {
+    title:
+      'Advisory Board | OPJU International Technology Conference | 2022',
+  },
 }
 </script>

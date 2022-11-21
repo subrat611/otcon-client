@@ -16,5 +16,8 @@
 <script>
 export default {
   name: 'KeyNotePage',
+  head: {
+    title: 'Keynote Speaker | OPJU International Technology Conference | 2022',
+  },
 }
 </script>

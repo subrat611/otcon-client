@@ -389,6 +389,9 @@ export default {
       ],
     }
   },
+  head: {
+    title: 'OTCON 2.0 | OPJU International Technology Conference | 2022',
+  },
   mounted() {
     const countDownTimer = new Date('Feb 8, 2023').getTime()
 

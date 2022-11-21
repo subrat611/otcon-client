@@ -113,6 +113,9 @@
 <script>
 export default {
   name: 'ContactPage',
+  head: {
+    title: 'Contact us | OPJU International Technology Conference | 2022',
+  },
 }
 </script>
 
