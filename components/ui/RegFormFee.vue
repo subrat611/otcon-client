@@ -16,8 +16,8 @@
               </tr>
               <tr class="table-warning">
                 <th>Category</th>
-                <th colspan="2">Active IEEE Members</th>
-                <th colspan="2">Non IEEE Members</th>
+                <th colspan="2">Active IEEE member</th>
+                <th colspan="2">Non IEEE member</th>
               </tr>
               <tr class="table-light">
                 <th>(Author)</th>

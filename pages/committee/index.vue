@@ -22,8 +22,8 @@
 <script>
 import pageWrapper from '~/components/page-wrapper.vue'
 export default {
-  components: { pageWrapper },
   name: 'IndexPage',
+  components: { pageWrapper },
   data() {
     return {
       committee: [
