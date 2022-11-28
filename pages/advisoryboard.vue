@@ -33,6 +33,18 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-12 col-sm-12">
+          <h1 class="text-center my-5">Scientific Program Committee</h1>
+          <div class="o-card-container">
+            <div
+              v-for="({ member }, i) in scientificCommittee"
+              :key="i"
+              class="o-card mb-3"
+            >
+              <p class="m-0">{{ member }}</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </page-wrapper>
@@ -287,6 +299,44 @@ export default {
           member: 'Dr. Sudeepa Das',
           Column2:
             "Computer Science and Engineering, Vignan's Institute of Information Technology, Vishakhapatanam, A.P. India",
+        },
+      ],
+      scientificCommittee: [
+        {
+          member: 'Dr. Rakesh Nayak',
+        },
+        {
+          member: 'Dr. Bhupesh Kumar Dewangan',
+        },
+        {
+          member: 'Dr. Saroj Chandra',
+        },
+        {
+          member: 'Dr. Abhilasha Chaudhury',
+        },
+        {
+          member: 'Dr. Gulshan Soni',
+        },
+        {
+          member: 'Dr. Vinod Kumar',
+        },
+        {
+          member: 'Dr. Sushree Diptimayee Swain',
+        },
+        {
+          member: 'Prof. R.N. Shukla',
+        },
+        {
+          member: 'Prof. Umashankar Pandey',
+        },
+        {
+          member: 'Prof. Asimkiran Dandapat',
+        },
+        {
+          member: 'Prof. Pradeep Shriwas',
+        },
+        {
+          member: 'Prof. Princy Diwan',
         },
       ],
     }
