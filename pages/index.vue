@@ -6,7 +6,7 @@
         <div class="row align-items-center hero-content pt-5">
           <div class="col-12">
             <img
-              src="../assets/images/ieee.png"
+              src="../assets/images/ieeemp.jpg"
               alt="iee image"
               class="iee-img"
             />
@@ -33,15 +33,7 @@
           </div>
           <h5 class="text-light text-uppercase fw-bolder">Event Starts In</h5>
           <div
-            class="
-              col-12
-              text-light
-              d-flex
-              justify-content-center
-              align-items-center
-              mb-5
-              pb-3
-            "
+            class="col-12 text-light d-flex justify-content-center align-items-center mb-5 pb-3"
           >
             <div class="col-2 col-md-1 border rounded me-4 pt-4">
               <h3 class="timer">{{ days }}</h3>
@@ -126,7 +118,7 @@
 
           <!-- Conference Sponsor -->
           <div class="sponsors">
-            <h1 class="my-4 py-4">Conference Sponsers</h1>
+            <h1 class="my-4 py-4">Conference Sponsors</h1>
             <div class="row">
               <div class="col text-center">
                 <img
@@ -146,15 +138,28 @@
               </div>
             </div>
           </div>
+          <div class="sponsors my-5">
+            <h1 class="my-4 py-4">Technical Sponsor</h1>
+            <div class="row">
+              <div class="col text-center">
+                <img
+                  class="sponsor-logo"
+                  src="~/assets/images/ieeemp.jpg"
+                  alt="sponser"
+                  style="width: 300px; height: 110px"
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- fixed right section -->
         <div class="col-lg-4">
           <div class="important-dates sticky-top py-5 mb-2">
             <h5 class="py-4">Important Dates</h5>
-            <div class="accordion" id="accordionExample">
+            <div id="accordionExample" class="accordion">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
+                <h2 id="headingOne" class="accordion-header">
                   <button
                     class="accordion-button"
                     type="button"
@@ -414,7 +419,7 @@ export default {
 
 <style scoped>
 .iee-img {
-  width: 11rem;
+  width: 18rem;
 }
 
 .container-fluid {
@@ -461,6 +466,9 @@ export default {
 }
 
 @media (max-width: 682px) {
+  .iee-img {
+    width: 15rem;
+  }
   .cg-cost-img {
     width: 20rem;
   }

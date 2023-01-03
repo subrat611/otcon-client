@@ -25,7 +25,7 @@
               >
             </nuxt-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <nuxt-link class="nav-link" to="/404"
               ><span
                 data-bs-toggle="collapse"
@@ -34,7 +34,7 @@
                 Program</span
               ></nuxt-link
             >
-          </li>
+          </li> -->
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/registration"
               ><span
@@ -53,11 +53,37 @@
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/committee"
-              ><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                >Committees</span
-              ></nuxt-link
-            >
+            <nuxt-link class="nav-link" to="">
+              <div class="dropdown">
+                <span data-bs-toggle="dropdown" aria-expanded="false">
+                  Committees
+                </span>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <nuxt-link
+                      class="text-dark nav-link dropdown-item px-2"
+                      to="/committee"
+                      >Core-committees</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link
+                      to="/"
+                      class="text-dark nav-link dropdown-item px-2"
+                      >IEEE-MP section - core committee</nuxt-link
+                    >
+                  </li>
+                  <li>
+                    <nuxt-link
+                      to="/"
+                      class="text-dark nav-link dropdown-item px-2"
+                      >OPJU IEEE student chapter
+                    </nuxt-link>
+                  </li>
+                </ul>
+              </div>
+            </nuxt-link>
           </li>
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/advisoryboard"

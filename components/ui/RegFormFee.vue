@@ -30,24 +30,24 @@
             <tbody>
               <tr>
                 <td>Full-time student/Research scholar</td>
-                <td>₹4000</td>
-                <td>$75</td>
-                <td>₹5000</td>
-                <td>$80</td>
+                <td>₹4000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$75<br /><span class="text-danger">+18% GST</span></td>
+                <td>₹5000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$80<br /><span class="text-danger">+18% GST</span></td>
               </tr>
               <tr>
                 <td>Academician</td>
-                <td>₹5000</td>
-                <td>$80</td>
-                <td>₹6000</td>
-                <td>$90</td>
+                <td>₹5000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$80<br /><span class="text-danger">+18% GST</span></td>
+                <td>₹6000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$90<br /><span class="text-danger">+18% GST</span></td>
               </tr>
               <tr>
                 <td>Industry</td>
-                <td>₹7000</td>
-                <td>$110</td>
-                <td>₹8000</td>
-                <td>$125</td>
+                <td>₹7000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$110<br /><span class="text-danger">+18% GST</span></td>
+                <td>₹8000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$125<br /><span class="text-danger">+18% GST</span></td>
               </tr>
               <tr>
                 <td></td>
@@ -57,28 +57,30 @@
               </tr>
               <tr>
                 <td>Full-time Student/Research Scholar</td>
-                <td>₹6000</td>
-                <td>$90</td>
-                <td>₹7000</td>
-                <td>$110</td>
+                <td>₹6000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$90<br /><span class="text-danger">+18% GST</span></td>
+                <td>₹7000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$110<br /><span class="text-danger">+18% GST</span></td>
               </tr>
               <tr>
                 <td>Academician</td>
-                <td>₹7000</td>
-                <td>$110</td>
-                <td>₹8000</td>
-                <td>$125</td>
+                <td>₹7000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$110<br /><span class="text-danger">+18% GST</span></td>
+                <td>₹8000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$125<br /><span class="text-danger">+18% GST</span></td>
               </tr>
               <tr>
                 <td>Industry</td>
-                <td>₹9000</td>
-                <td>$130</td>
-                <td>₹10000</td>
-                <td>$140</td>
+                <td>₹9000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$130<br /><span class="text-danger">+18% GST</span></td>
+                <td>₹10000<br /><span class="text-danger">+18% GST</span></td>
+                <td>$140<br /><span class="text-danger">+18% GST</span></td>
               </tr>
               <tr>
                 <td>Participants/Extra authors/Listener</td>
-                <td colspan="4" class="text-center">₹2000</td>
+                <td colspan="4" class="text-center">
+                  ₹2000 <span class="text-danger">+18% GST</span>
+                </td>
               </tr>
             </tbody>
           </table>
