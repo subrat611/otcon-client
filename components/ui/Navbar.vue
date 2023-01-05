@@ -64,21 +64,38 @@
                     <nuxt-link
                       class="text-dark nav-link dropdown-item px-2"
                       to="/committee"
-                      >Core-committees</nuxt-link
                     >
+                      <span
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                      >
+                        Core-committees
+                      </span>
+                    </nuxt-link>
                   </li>
                   <li>
                     <nuxt-link
                       to="/"
                       class="text-dark nav-link dropdown-item px-2"
-                      >IEEE-MP section - core committee</nuxt-link
                     >
+                      <span
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                        >IEEE-MP section - core committee</span
+                      >
+                    </nuxt-link>
                   </li>
                   <li>
                     <nuxt-link
                       to="/"
                       class="text-dark nav-link dropdown-item px-2"
-                      >OPJU IEEE student chapter
+                    >
+                      <span
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                      >
+                        OPJU IEEE student chapter
+                      </span>
                     </nuxt-link>
                   </li>
                 </ul>
@@ -120,6 +137,9 @@ export default {
       scrollPosition: null,
     }
   },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll)
+  },
   methods: {
     updateScroll() {
       this.scrollPosition = window.scrollY
@@ -127,9 +147,6 @@ export default {
     getWindowHeight() {
       return window.innerHeight
     },
-  },
-  mounted() {
-    window.addEventListener('scroll', this.updateScroll)
   },
 }
 </script>
