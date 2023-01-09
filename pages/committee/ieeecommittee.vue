@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <div class="container">
       <h1 class="mt-4 py-3">Committee</h1>
       <div class="row">
