@@ -112,7 +112,7 @@
                   </li>
                   <li>
                     <nuxt-link
-                      to="/"
+                      to="/committee/confexecutioncommittee"
                       class="text-dark nav-link dropdown-item px-2"
                     >
                       <span

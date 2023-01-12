@@ -68,6 +68,7 @@ export default {
           img: require('assets/images/14.png'),
           desig: 'Co-Convener',
           name: 'Dr. B.P. Panda',
+          email: 'biranchi.panda@opju.ac.in',
         },
         {
           img: require('assets/images/1.png'),
@@ -91,6 +92,7 @@ export default {
           img: require('assets/images/16.png'),
           desig: 'Joint Secretary',
           name: 'Dr. Sushree Diptimayee Swain',
+          email: 'sushree.swain@opju.ac.in',
         },
         {
           img: require('assets/images/5.png'),
@@ -113,6 +115,7 @@ export default {
           img: require('assets/images/15.png'),
           desig: 'Publicity Chair',
           name: 'Mr. Anup Kumar Bharti',
+          email: 'anup.bharti@opju.ac.in',
         },
         {
           img: require('assets/images/4.png'),
