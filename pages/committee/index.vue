@@ -124,7 +124,7 @@ export default {
           email: 'abhilasha.chaudhuri@opju.ac.in',
         },
         {
-          img: '',
+          img: require('assets/images/avtar.png'),
           desig: 'Finance Chair',
           name: 'Avimanyu Singh',
           email: 'avimanyu.kumar@opju.ac.in',

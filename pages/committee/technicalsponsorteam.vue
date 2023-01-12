@@ -59,7 +59,7 @@ export default {
           email: '',
         },
         {
-          img: '',
+          img: require('assets/images/avtar.png'),
           desig: 'TPAC Chair and Coordinator-CG',
           name: 'Dr. R.N. Patel',
           email: '',
