@@ -94,10 +94,33 @@
             </div>
           </div>
 
+          <!-- About Conference -->
+          <div class="my-3 py-5 pe-2">
+            <h1 class="py-3">About Conference</h1>
+            <p class="px-2">
+              The <b>OTCON</b> aims to be a premier conference in Central India
+              and will provide a platform for researchers, academicians, working
+              professionals, students and government personnel from various
+              engineering fields to share and discuss the latest emerging
+              technologies and related research for sustainable development,
+              especially in the domain of
+              <strong
+                >Intelligent Computing, Communication, Control, Networking,
+                Renewable Energy, Power Systems, IoT, Automation, Manufacturing,
+                Signal and Image Processing, Cyber-Physical Systems, Metaverse,
+                Education, Environment, and Economics </strong
+              >.The conference will witness multiple eminent keynote speakers
+              from academia and industry from all over the world along with the
+              presentation of accepted peer-reviewed articles.The
+              after-conference proceeding of the OTCON Will be submitted for
+              inclusion to IEEE XPLORE.
+            </p>
+          </div>
+
           <!-- About section -->
           <div class="my-3 py-5 pe-2">
             <h1 class="py-3">About OPJU</h1>
-            <p class="">
+            <p class="px-2">
               OP Jindal University (OPJU) has been established under the aegis
               of the Jindal Education and Welfare Society. The O P Jindal Group
               is a US$ 22 billion conglomerate, employing more than 50,000

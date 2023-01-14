@@ -4,7 +4,12 @@
     <div class="container mt-4">
       <div class="row">
         <div class="col">
-          <p class="alert alert-danger py-2 fw-bold" style="letter-spacing: 0.02rem;">Registration Closed</p>
+          <p
+            class="alert alert-danger py-2 fw-bold shadow-sm bg-body-tertiary"
+            style="letter-spacing: 0.02rem"
+          >
+            Registration Closed
+          </p>
           <h4>Registration Fee</h4>
         </div>
         <div class="col-12 mt-3">
