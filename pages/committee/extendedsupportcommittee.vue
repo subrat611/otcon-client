@@ -166,7 +166,7 @@ export default {
 }
 
 .o-card {
-  padding: 1.5rem;
+  padding: 1rem;
   width: 318px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
