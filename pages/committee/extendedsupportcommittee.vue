@@ -6,30 +6,17 @@
     <div class="container my-4 py-4">
       <div class="o-card-container">
         <div
-          v-for="({ img, name, mobNo, membershipNo, email }, i) in committee"
+          v-for="({ img, name, branch }, i) in committee"
           :key="i"
           class="o-card mb-3"
         >
-          <div class="card-profile-container mb-2">
-            <img :src="img" alt="img" class="o-card-img p-0 mb-3" />
-            <p class="m-0">{{ name }}</p>
-          </div>
-          <div>
-            <h6 class="text-dark">
-              <span>Mobile no</span>
-              <br />
-              <span class="text-danger">{{ mobNo }}</span>
-            </h6>
-            <h6 class="text-dark">
-              <span>Membership No</span>
-              <br />
-              <span class="text-danger">{{ membershipNo }}</span>
-            </h6>
-            <h6 class="text-dark">
-              {{ !email ? '' : 'Email:' }}<br />
-              <a id="email-id" :href="'mailto:' + email">{{ email }}</a>
-            </h6>
-          </div>
+          <img :src="img" alt="img" class="o-card-img p-0 mb-3" />
+          <p class="m-0">{{ name }}</p>
+          <h6 class="m-0 text-danger">IEEE Student Member ({{ branch }})</h6>
+          <!-- <h6 class="mt-2 text-dark">
+            {{ !email ? '' : 'Email:' }}<br />
+            <a id="email-id" :href="'mailto:' + email">{{ email }}</a>
+          </h6> -->
         </div>
       </div>
     </div>
@@ -48,6 +35,7 @@ export default {
           mobNo: '8349910279',
           membershipNo: '97773940',
           email: 'vedi.ug19cse53@opju.ac.in',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -55,6 +43,7 @@ export default {
           mobNo: '6267425664',
           membershipNo: '97774708',
           email: 'riti02025@gmail.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -63,6 +52,7 @@ export default {
           altno: '8770721320',
           membershipNo: '97775193',
           email: 'harshrajpandey.49@gmail.com',
+          branch: 'EE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -70,6 +60,7 @@ export default {
           mobNo: '8982992201',
           membershipNo: '97773946',
           email: 'vungaralaujjwala2002@gmail.com',
+          branch: 'EE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -77,6 +68,7 @@ export default {
           mobNo: '7735886881',
           membershipNo: '97773964',
           email: 'utkarshdixit2021@gmail.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -84,6 +76,7 @@ export default {
           mobNo: '9131901837',
           membershipNo: '97773934',
           email: 'monalsingh234@gmail.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -91,6 +84,7 @@ export default {
           mobNo: '8085950108',
           membershipNo: '97775225',
           email: 'poonam.shukla@jindalpower.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -98,6 +92,7 @@ export default {
           mobNo: '7247279229',
           membershipNo: '96379447',
           email: 'vipavaneesh@gmail.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -105,6 +100,7 @@ export default {
           mobNo: '8271953137',
           membershipNo: '98266299',
           email: 'skjha0111@gmail.com',
+          branch: 'EE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -112,6 +108,7 @@ export default {
           mobNo: '9334257009',
           membershipNo: '98266267',
           email: 'abhineet9652@gmail.com',
+          branch: 'EE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -119,6 +116,7 @@ export default {
           mobNo: '8827129702',
           membershipNo: '98227982',
           email: 'shambhavi030902@gmail.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -126,6 +124,7 @@ export default {
           mobNo: '9546093830',
           membershipNo: '98228086',
           email: 'ambhujraj6400@gmail.com',
+          branch: 'CSE',
         },
         {
           img: require('assets/images/avtar.png'),
@@ -133,6 +132,7 @@ export default {
           mobNo: '7008575068',
           membershipNo: '98234195',
           email: 'suryanshudobai@gmail.com',
+          branch: 'CSE',
         },
       ],
     }
@@ -153,30 +153,24 @@ export default {
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.card-profile-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+  justify-content: flex-start;
 }
 
 .o-card {
   padding: 1rem;
-  width: 318px;
+  width: 17rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  word-wrap: break-word;
+  margin: 0 1rem;
   display: flex;
-  margin: 0 0.2rem;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .o-card-img {
-  width: 60%;
+  width: 80%;
   padding-bottom: 1rem;
   filter: grayscale(1);
 }
@@ -192,7 +186,8 @@ export default {
   .o-card {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    align-items: center;
+    text-align: center;
   }
 }
 </style>
