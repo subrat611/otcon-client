@@ -1,16 +1,15 @@
 <template>
   <page-wrapper>
     <page-header>
-      <h2 class="">Conference Execution Committee</h2>
+      <h2 class="">Members of Conference Execution Committee</h2>
     </page-header>
     <div class="container my-4 py-4">
       <div class="o-card-container">
         <div
-          v-for="({ img, name, desig, email }, i) in committee"
+          v-for="({ name, desig, email }, i) in committee"
           :key="i"
           class="o-card mb-3"
         >
-          <img :src="img" alt="img" class="o-card-img p-0 mb-3" />
           <p class="m-0">{{ name }}</p>
           <h6 class="m-0 text-danger">{{ desig }}</h6>
           <h6 class="mt-2 text-dark">

@@ -1,7 +1,7 @@
 <template>
   <page-wrapper>
     <page-header>
-      <h2 class="">Technical Sponsor Committee</h2>
+      <h2 class="">IEEE MP Section - Office Bearers</h2>
     </page-header>
     <div class="container my-4 py-4">
       <div class="o-card-container">
