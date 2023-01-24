@@ -32,42 +32,35 @@ export default {
     return {
       keyNoteSpeakers: [
         {
-          member: 'Dr. Surbhi Bhatia',
-          Column2: 'King Faisal University, Saudi Arebia',
+          member: 'Dr. Ram Bilas Pachori',
+          Column2: 'Professor, IIT Indore',
         },
         {
-          member: 'Dr. Christian Blum',
+          member: 'Dr. Suraj Sharma',
           Column2:
-            'Senior Research Scientist, Artificial Intelligence Research Institute (IIIA), Spain',
+            'Associate Professor, Guru Ghasidas Vishwavidyalaya A Central University Bilaspur',
         },
         {
-          member: 'Dr. Cynthia Furse',
+          member: 'Dr. Dilip Singh Sisodia',
+          Column2: 'Associate Professor, NIT Raipur',
+        },
+        {
+          member: 'Dr. Thinagaran Perumal',
           Column2:
-            'Professor, University of Utah, Co-Founder Live Wire Innovation, USA',
+            'Associate Professor, Faculty of Computer Science and Information Technology, Universiti Putra Malaysia 43400',
         },
         {
-          member: 'Dr. Ravi Prakash',
-          Column2: 'Professor, University of Texas Dallas, USA',
+          member: 'Dr. Tanupriya Choudhuty',
+          Column2:
+            'Sr. Associate Professor, University of Petroleum and Energy Studies, Dehradun, INDIA',
         },
         {
-          member: 'Dr. Marcin PAPRZYCKI',
-          Column2: 'Professor, Polish Academy of Sciences, Poland',
+          member: 'Dr. Surbhi Bhatia,',
+          Column2: 'Associate Professor, King Faisal University, Saudi Arebia',
         },
         {
-          member: 'Dr. Chandraprakash Bhujetiya',
-          Column2: 'NIT Delhi',
-        },
-        {
-          member: 'Dr Ravi Tomar',
-          Column2: 'Senior Architect, Persistent Systems Ltd., India',
-        },
-        {
-          member: 'Dr V S Rao',
-          Column2: 'Vice Chancellor, SRM University, Amaravathi ',
-        },
-        {
-          member: 'Dr Gayadhar Panda',
-          Column2: 'Dean and Professor, NIT Meghalaya',
+          member: 'Dr. Manoj Bajpai',
+          Column2: 'Professor, IIITDM, Jabalpur',
         },
       ],
     }
