@@ -10,7 +10,7 @@
           :key="i"
           class="o-card mb-3"
         >
-          <img :src="img" alt="img" class="o-card-img p-0 mb-3" />
+          <img v-if="img" :src="img" alt="img" class="o-card-img p-0 mb-3" />
           <p class="m-0">{{ name }}</p>
           <h6 class="m-0 text-danger">{{ desig }}</h6>
           <h6 class="mt-2 text-dark">
@@ -124,7 +124,7 @@ export default {
           email: 'abhilasha.chaudhuri@opju.ac.in',
         },
         {
-          img: require('assets/images/avtar.png'),
+          img: '',
           desig: 'Finance Chair',
           name: 'Avimanyu Singh',
           email: 'avimanyu.kumar@opju.ac.in',
