@@ -59,8 +59,8 @@ export default {
           Column2: 'Associate Professor, King Faisal University, Saudi Arebia',
         },
         {
-          member: 'Dr. Manoj Bajpai',
-          Column2: 'Professor, IIITDM, Jabalpur',
+          member: 'Dr. Manish Kumar Bajpai',
+          Column2: 'Assistant Professor, III TDM, Jabalpur',
         },
       ],
     }
