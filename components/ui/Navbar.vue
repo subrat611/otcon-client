@@ -29,16 +29,16 @@
               >
             </nuxt-link>
           </li>
-          <!-- <li class="nav-item">
-            <nuxt-link class="nav-link" to="/404"
+          <li class="nav-item">
+            <nuxt-link class="nav-link" to="/schedule"
               ><span
                 data-bs-toggle="collapse"
                 data-bs-target=".navbar-collapse"
               >
-                Program</span
+                Conference Schedule</span
               ></nuxt-link
             >
-          </li> -->
+          </li>
           <li
             class="nav-item"
             data-bs-toggle="collapse"
