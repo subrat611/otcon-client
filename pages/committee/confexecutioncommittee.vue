@@ -1,7 +1,11 @@
 <template>
   <page-wrapper>
     <page-header>
-      <h2 class="">Members of Conference Execution Committee</h2>
+      <h2>Members of Conference Execution Committee</h2>
+      <p class="text-light">
+        The dedicated employees of the OP Jindal University are part of the
+        conference execution committee.
+      </p>
     </page-header>
     <div class="container my-4 py-4">
       <div class="o-card-container">

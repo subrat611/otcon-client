@@ -6,7 +6,7 @@
     <div class="container mt-4 py-4">
       <div class="row">
         <div class="col-12 col-sm-6">
-          <nuxt-img src="/inaugural.png" class="inaugural-img" />
+          <img src="~/static/inaugural.png" class="inaugural-img" />
         </div>
         <div class="col-12 col-sm-6">
           <div class="important-dates sticky-top py-5 mb-2">
@@ -33,8 +33,8 @@
                 >
                   <div class="accordion-body">
                     <div class="o-schedule-box">
-                      <nuxt-img
-                        src="/inauguralSchedule.png"
+                      <img
+                        src="~/static/inauguralSchedule.png"
                         class="schedule-img"
                       />
 
@@ -51,8 +51,8 @@
                           <button
                             class="o-custom-btn btn border-primary shadow-lg"
                           >
-                            <nuxt-img
-                              src="/zoom.png"
+                            <img
+                              src="~/static/zoom.png"
                               style="margin: 0 0.5rem"
                             />
                             <a
@@ -93,7 +93,7 @@
                 >
                   <div class="accordion-body">
                     <div class="o-schedule-box">
-                      <nuxt-img src="/day2and3.png" class="schedule-img" />
+                      <img src="~/static/day2and3.png" class="schedule-img" />
 
                       <div class="overlay">
                         <button class="btn btn-primary shadow-lg">
@@ -111,8 +111,8 @@
                           <button
                             class="o-custom-btn btn border-primary shadow-lg"
                           >
-                            <nuxt-img
-                              src="/zoom.png"
+                            <img
+                              src="~/static/zoom.png"
                               style="margin: 0 0.5rem"
                             />
                             <a
@@ -132,8 +132,8 @@
                           <button
                             class="o-custom-btn btn border-primary shadow-lg"
                           >
-                            <nuxt-img
-                              src="/zoom.png"
+                            <img
+                              src="~/static/zoom.png"
                               style="margin: 0 0.5rem"
                             />
                             <a
@@ -172,8 +172,8 @@
                 >
                   <div class="accordion-body">
                     <div class="o-schedule-box">
-                      <nuxt-img
-                        src="/day3valedictory.png"
+                      <img
+                        src="~/static/day3valedictory.png"
                         class="schedule-img"
                       />
 
@@ -190,8 +190,8 @@
                           <button
                             class="o-custom-btn btn border-primary shadow-lg"
                           >
-                            <nuxt-img
-                              src="/zoom.png"
+                            <img
+                              src="~/static/zoom.png"
                               style="margin: 0 0.5rem"
                             />
                             <a

@@ -1,7 +1,28 @@
 <template>
   <page-wrapper>
     <page-header>
-      <h2 class="">IEEE MP Section - Office Bearers</h2>
+      <h2>IEEE MP Section - Office Bearers</h2>
+      <p class="text-light">
+        The Institute of Electrical and Electronics Engineers, Incorporated
+        (IEEE) is a non-profit corporation, incorporated in the state of New
+        York on 16 March 1896. As authorized by the IEEE Board of Directors, the
+        IEEE Member and Geographic Activities Board (known as IEEE Regional
+        Activities Board prior to 1 January 2008) approved the establishment and
+        boundaries of the IEEE Madhya Pradesh Section.
+      </p>
+      <p class="text-light">
+        IEEE, an association dedicated to advancing innovation and technological
+        excellence for the benefit of humanity, is the world’s largest technical
+        professional society. It is designed to serve professionals involved in
+        all aspects of the electrical, electronic and computing fields and
+        related areas of science and technology that underlie modern
+        civilization.
+      </p>
+      <p class="text-light">
+        OP Jindal university is organizing this technical conference under the
+        technical sponsorship and guidance of the following office bearers of
+        IEEE MP subsection.
+      </p>
     </page-header>
     <div class="container my-4 py-4">
       <div class="o-card-container">

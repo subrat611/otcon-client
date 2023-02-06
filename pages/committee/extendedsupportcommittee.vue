@@ -1,7 +1,12 @@
 <template>
   <page-wrapper>
     <page-header>
-      <h2 class="">Members of OPJU IEEE Student Chapter</h2>
+      <h2>Members of OPJU IEEE Student Chapter</h2>
+      <p class="text-light">
+        OP Jindal University has a local IEEE Student chapter. The student
+        members of this chapter are extending their support in organization of
+        the OTCON conference.
+      </p>
     </page-header>
     <div class="container my-4 py-4">
       <div class="o-card-container">
