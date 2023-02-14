@@ -434,6 +434,10 @@ export default {
 
       if (time < 0) {
         clearInterval(x)
+        this.days = 0
+        this.hours = 0
+        this.mins = 0
+        this.sec = 0
       }
     }, 1000)
   },
