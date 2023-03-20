@@ -200,11 +200,13 @@
                   aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">30th November 2022</div>
+                  <div class="accordion-body text-danger fw-semibold">
+                    SUBMISSION CLOSED
+                  </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
+                <h2 id="headingTwo" class="accordion-header">
                   <button
                     class="accordion-button collapsed"
                     type="button"
@@ -226,7 +228,7 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
+                <h2 id="headingThree" class="accordion-header">
                   <button
                     class="accordion-button collapsed"
                     type="button"
@@ -271,6 +273,7 @@
                     <a
                       href="https://easychair.org/conferences/?conf=otcon2022"
                       target="_blank"
+                      class="btn disabled border-0"
                     >
                       Submit Paper »
                     </a>

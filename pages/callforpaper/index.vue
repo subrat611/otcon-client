@@ -80,7 +80,7 @@
             OP Jindal Institute of Technology, <br />
             Raigarh, Chhattisgarh, India. <br />
             E-mail:
-            <a href="mailto: conference@opju.ac.in">conference@opju.ac.in</a>
+            <a href="mailto: OTCON@OPJU.AC.IN">OTCON@OPJU.AC.IN</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -138,7 +138,6 @@
     </div>
   </page-wrapper>
 </template>
-
 
 <script>
 import pageWrapper from '~/components/page-wrapper.vue'

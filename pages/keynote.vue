@@ -32,35 +32,36 @@ export default {
     return {
       keyNoteSpeakers: [
         {
-          member: 'Dr. Ram Bilas Pachori',
-          Column2: 'Professor, IIT Indore',
+          member: 'Dr. Manish Kumar Bajpai',
+          Column2: 'Professor, IIITDM, Jabalpur',
         },
         {
-          member: 'Dr. Suraj Sharma',
+          member: 'Dr. Sunil Kumar Gupta',
           Column2:
-            'Associate Professor, Guru Ghasidas Vishwavidyalaya A Central University Bilaspur',
+            'Professor, School of Computer Science, University of Petroleum and Energy Studies, India',
         },
         {
-          member: 'Dr. Dilip Singh Sisodia',
-          Column2: 'Associate Professor, NIT Raipur',
+          member: 'Dr. Sachi Nandan Mohanti',
+          Column2:
+            'Professor, School of Computer Science, Singidunum University, Serbia',
         },
         {
           member: 'Dr. Thinagaran Perumal',
           Column2:
-            'Associate Professor, Faculty of Computer Science and Information Technology, Universiti Putra Malaysia 43400',
+            'Associate Professor, Faculty of Computer Science and Information Technology, Universiti Putra, Malaysia',
         },
         {
           member: 'Dr. Tanupriya Choudhuty',
           Column2:
-            'Sr. Associate Professor, University of Petroleum and Energy Studies, Dehradun, INDIA',
+            'Professor, University of Petroleum and Energy Studies, Dehradun, INDIA.',
         },
         {
-          member: 'Dr. Surbhi Bhatia,',
-          Column2: 'Associate Professor, King Faisal University, Saudi Arebia',
+          member: 'Dr. Surbhi Bhatia',
+          Column2: 'Associate Professor, King Faisal University, Saudi Arabia',
         },
         {
-          member: 'Dr. Manish Kumar Bajpai',
-          Column2: 'Assistant Professor, III TDM, Jabalpur',
+          member: 'Dr. Suraj Sharma',
+          Column2: 'Associate Professor, GGU Bilaspur',
         },
       ],
     }
